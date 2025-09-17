@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashboard Background -->
+  <rect x="0" y="0" width="800" height="500" rx="10" ry="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="800" height="60" rx="10" ry="10" fill="#2563eb"/>
+  <text x="30" y="38" font-family="Arial" font-size="24" font-weight="bold" fill="white">AuctionInsights Dashboard</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="200" height="440" fill="#f1f5f9"/>
+  <rect x="20" y="100" width="160" height="40" rx="5" ry="5" fill="#2563eb" opacity="0.9"/>
+  <text x="50" y="125" font-family="Arial" font-size="16" fill="white">Dashboard</text>
+  
+  <rect x="20" y="150" width="160" height="40" rx="5" ry="5" fill="transparent" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="50" y="175" font-family="Arial" font-size="16" fill="#64748b">Properties</text>
+  
+  <rect x="20" y="200" width="160" height="40" rx="5" ry="5" fill="transparent" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="50" y="225" font-family="Arial" font-size="16" fill="#64748b">Auctions</text>
+  
+  <rect x="20" y="250" width="160" height="40" rx="5" ry="5" fill="transparent" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="50" y="275" font-family="Arial" font-size="16" fill="#64748b">Analytics</text>
+  
+  <rect x="20" y="300" width="160" height="40" rx="5" ry="5" fill="transparent" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="50" y="325" font-family="Arial" font-size="16" fill="#64748b">Alerts</text>
+  
+  <!-- Main Content Area -->
+  <!-- Stats Cards -->
+  <rect x="220" y="80" width="170" height="100" rx="8" ry="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="240" y="110" font-family="Arial" font-size="14" fill="#64748b">Properties Tracked</text>
+  <text x="240" y="150" font-family="Arial" font-size="28" font-weight="bold" fill="#2563eb">3,542</text>
+  
+  <rect x="410" y="80" width="170" height="100" rx="8" ry="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="430" y="110" font-family="Arial" font-size="14" fill="#64748b">Upcoming Auctions</text>
+  <text x="430" y="150" font-family="Arial" font-size="28" font-weight="bold" fill="#2563eb">27</text>
+  
+  <rect x="600" y="80" width="170" height="100" rx="8" ry="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="620" y="110" font-family="Arial" font-size="14" fill="#64748b">Potential Deals</text>
+  <text x="620" y="150" font-family="Arial" font-size="28" font-weight="bold" fill="#f59e0b">12</text>
+  
+  <!-- Chart Area -->
+  <rect x="220" y="200" width="550" height="280" rx="8" ry="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="240" y="230" font-family="Arial" font-size="18" font-weight="bold" fill="#1e293b">Price Trends by Region</text>
+  
+  <!-- Chart Lines -->
+  <polyline points="240,400 270,380 300,390 330,370 360,350 390,340 420,320 450,330 480,310 510,290 540,280 570,260 600,250 630,240 660,230 690,220 720,210" 
+            fill="none" stroke="#2563eb" stroke-width="3"/>
+            
+  <polyline points="240,400 270,390 300,385 330,395 360,380 390,370 420,375 450,360 480,350 510,340 540,330 570,320 600,310 630,300 660,290 690,280 720,270" 
+            fill="none" stroke="#f59e0b" stroke-width="3"/>
+            
+  <polyline points="240,400 270,395 300,390 330,385 360,390 390,380 420,385 450,375 480,370 510,365 540,360 570,350 600,345 630,340 660,335 690,330 720,325" 
+            fill="none" stroke="#10b981" stroke-width="3"/>
+  
+  <!-- Chart Legend -->
+  <rect x="240" y="430" width="12" height="12" fill="#2563eb"/>
+  <text x="260" y="440" font-family="Arial" font-size="12" fill="#64748b">London</text>
+  
+  <rect x="320" y="430" width="12" height="12" fill="#f59e0b"/>
+  <text x="340" y="440" font-family="Arial" font-size="12" fill="#64748b">Manchester</text>
+  
+  <rect x="420" y="430" width="12" height="12" fill="#10b981"/>
+  <text x="440" y="440" font-family="Arial" font-size="12" fill="#64748b">Birmingham</text>
+  
+  <!-- X-Axis Labels -->
+  <text x="240" y="460" font-family="Arial" font-size="10" fill="#94a3b8">Jan</text>
+  <text x="300" y="460" font-family="Arial" font-size="10" fill="#94a3b8">Feb</text>
+  <text x="360" y="460" font-family="Arial" font-size="10" fill="#94a3b8">Mar</text>
+  <text x="420" y="460" font-family="Arial" font-size="10" fill="#94a3b8">Apr</text>
+  <text x="480" y="460" font-family="Arial" font-size="10" fill="#94a3b8">May</text>
+  <text x="540" y="460" font-family="Arial" font-size="10" fill="#94a3b8">Jun</text>
+  <text x="600" y="460" font-family="Arial" font-size="10" fill="#94a3b8">Jul</text>
+  <text x="660" y="460" font-family="Arial" font-size="10" fill="#94a3b8">Aug</text>
+  <text x="720" y="460" font-family="Arial" font-size="10" fill="#94a3b8">Sep</text>
+</svg>
