@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Probate Property Timeline</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Average timeline from death to property sale completion</text>
+  
+  <!-- Timeline Base -->
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#adb5bd" stroke-width="4"/>
+  
+  <!-- Timeline Markers -->
+  <circle cx="100" cy="200" r="10" fill="#3498db"/>
+  <circle cx="220" cy="200" r="10" fill="#3498db"/>
+  <circle cx="340" cy="200" r="10" fill="#3498db"/>
+  <circle cx="460" cy="200" r="10" fill="#3498db"/>
+  <circle cx="580" cy="200" r="10" fill="#3498db"/>
+  <circle cx="700" cy="200" r="10" fill="#3498db"/>
+  
+  <!-- Timeline Connector Lines -->
+  <line x1="100" y1="200" x2="220" y2="200" stroke="#3498db" stroke-width="4"/>
+  <line x1="220" y1="200" x2="340" y2="200" stroke="#3498db" stroke-width="4"/>
+  <line x1="340" y1="200" x2="460" y2="200" stroke="#3498db" stroke-width="4"/>
+  <line x1="460" y1="200" x2="580" y2="200" stroke="#3498db" stroke-width="4"/>
+  <line x1="580" y1="200" x2="700" y2="200" stroke="#3498db" stroke-width="4"/>
+  
+  <!-- Event Boxes -->
+  <!-- Event 1 -->
+  <rect x="50" y="120" width="100" height="60" fill="#3498db" rx="5" ry="5"/>
+  <text x="100" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Death of</text>
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Property Owner</text>
+  <line x1="100" y1="180" x2="100" y2="190" stroke="#3498db" stroke-width="2"/>
+  <text x="100" y="220" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Day 0</text>
+  
+  <!-- Event 2 -->
+  <rect x="170" y="120" width="100" height="60" fill="#3498db" rx="5" ry="5"/>
+  <text x="220" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Application for</text>
+  <text x="220" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Probate</text>
+  <line x1="220" y1="180" x2="220" y2="190" stroke="#3498db" stroke-width="2"/>
+  <text x="220" y="220" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">4-8 Weeks</text>
+  
+  <!-- Event 3 -->
+  <rect x="290" y="120" width="100" height="60" fill="#3498db" rx="5" ry="5"/>
+  <text x="340" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Grant of</text>
+  <text x="340" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Probate</text>
+  <line x1="340" y1="180" x2="340" y2="190" stroke="#3498db" stroke-width="2"/>
+  <text x="340" y="220" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">8-12 Weeks</text>
+  
+  <!-- Event 4 -->
+  <rect x="410" y="120" width="100" height="60" fill="#3498db" rx="5" ry="5"/>
+  <text x="460" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Property Listed</text>
+  <text x="460" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">at Auction</text>
+  <line x1="460" y1="180" x2="460" y2="190" stroke="#3498db" stroke-width="2"/>
+  <text x="460" y="220" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">12-16 Weeks</text>
+  
+  <!-- Event 5 -->
+  <rect x="530" y="120" width="100" height="60" fill="#3498db" rx="5" ry="5"/>
+  <text x="580" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Auction</text>
+  <text x="580" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Sale</text>
+  <line x1="580" y1="180" x2="580" y2="190" stroke="#3498db" stroke-width="2"/>
+  <text x="580" y="220" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">16-20 Weeks</text>
+  
+  <!-- Event 6 -->
+  <rect x="650" y="120" width="100" height="60" fill="#3498db" rx="5" ry="5"/>
+  <text x="700" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Completion</text>
+  <text x="700" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">of Sale</text>
+  <line x1="700" y1="180" x2="700" y2="190" stroke="#3498db" stroke-width="2"/>
+  <text x="700" y="220" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">20-28 Weeks</text>
+  
+  <!-- Potential Delay Points -->
+  <path d="M 220 240 L 220 260 L 240 250 Z" fill="#e74c3c"/>
+  <text x="250" y="255" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Potential delay: Missing documents</text>
+  
+  <path d="M 340 240 L 340 260 L 360 250 Z" fill="#e74c3c"/>
+  <text x="370" y="255" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Potential delay: HMRC inheritance tax queries</text>
+  
+  <path d="M 580 240 L 580 260 L 600 250 Z" fill="#e74c3c"/>
+  <text x="610" y="255" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Potential delay: Legal title issues</text>
+  
+  <!-- Opportunity Points -->
+  <path d="M 460 240 L 460 260 L 480 250 Z" fill="#27ae60"/>
+  <text x="490" y="255" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">Opportunity: Pre-auction research</text>
+  
+  <path d="M 700 240 L 700 260 L 720 250 Z" fill="#27ae60"/>
+  <text x="730" y="255" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">Opportunity: Quick completion</text>
+  
+  <!-- Timeline Notes -->
+  <rect x="100" y="290" width="600" height="80" fill="white" stroke="#dee2e6" rx="5" ry="5"/>
+  <text x="120" y="315" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Key Timeline Notes:</text>
+  <text x="120" y="340" font-family="Arial, sans-serif" font-size="12" fill="#333">• Simple probate cases may complete in 3-6 months, complex cases can take 12+ months</text>
+  <text x="120" y="360" font-family="Arial, sans-serif" font-size="12" fill="#333">• Executors may choose auction for quick sale and transparent pricing</text>
+  <text x="120" y="380" font-family="Arial, sans-serif" font-size="12" fill="#333">• Probate properties often sell at 10-15% below market value due to condition and quick sale requirements</text>
+  
+  <!-- Legend -->
+  <circle cx="650" cy="315" r="5" fill="#e74c3c"/>
+  <text x="660" y="318" font-family="Arial, sans-serif" font-size="10" fill="#333">Potential Delay Point</text>
+  
+  <circle cx="650" cy="335" r="5" fill="#27ae60"/>
+  <text x="660" y="338" font-family="Arial, sans-serif" font-size="10" fill="#333">Opportunity Point</text>
+</svg>

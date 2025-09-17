@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Auction Property Insurance Risk Factors</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Key risk factors affecting insurance coverage and premiums</text>
+  
+  <!-- Central House -->
+  <rect x="350" y="200" width="100" height="100" fill="#fff" stroke="#333" stroke-width="3"/>
+  <polygon points="350,200 400,150 450,200" fill="#e74c3c" stroke="#333" stroke-width="3"/>
+  <rect x="385" y="250" width="30" height="50" fill="#3498db" stroke="#333" stroke-width="2"/>
+  <circle cx="405" cy="275" r="3" fill="#333"/>
+  
+  <!-- Risk Factor 1: Vacancy -->
+  <circle cx="200" y="150" r="60" fill="#3498db" fill-opacity="0.2" stroke="#3498db" stroke-width="2"/>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Vacancy</text>
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Duration property</text>
+  <text x="200" y="175" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">will be unoccupied</text>
+  
+  <!-- Risk Factor 2: Property Condition -->
+  <circle cx="200" y="350" r="60" fill="#e74c3c" fill-opacity="0.2" stroke="#e74c3c" stroke-width="2"/>
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Property</text>
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Condition</text>
+  <text x="200" y="380" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Structural integrity,</text>
+  <text x="200" y="395" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">disrepair, defects</text>
+  
+  <!-- Risk Factor 3: Renovation Scope -->
+  <circle cx="600" y="150" r="60" fill="#f1c40f" fill-opacity="0.2" stroke="#f1c40f" stroke-width="2"/>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Renovation</text>
+  <text x="600" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Scope</text>
+  <text x="600" y="180" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Extent of works,</text>
+  <text x="600" y="195" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">structural changes</text>
+  
+  <!-- Risk Factor 4: Location -->
+  <circle cx="600" y="350" r="60" fill="#2ecc71" fill-opacity="0.2" stroke="#2ecc71" stroke-width="2"/>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Location</text>
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Flood risk, crime rate,</text>
+  <text x="600" y="375" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">subsidence history</text>
+  
+  <!-- Risk Factor 5: Intended Use -->
+  <circle cx="400" y="100" r="60" fill="#9b59b6" fill-opacity="0.2" stroke="#9b59b6" stroke-width="2"/>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Intended Use</text>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Residential, commercial,</text>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">mixed-use, HMO</text>
+  
+  <!-- Risk Factor 6: Security Measures -->
+  <circle cx="400" y="400" r="60" fill="#34495e" fill-opacity="0.2" stroke="#34495e" stroke-width="2"/>
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Security</text>
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Measures</text>
+  <text x="400" y="430" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Locks, alarms, CCTV,</text>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">site monitoring</text>
+  
+  <!-- Connecting Lines -->
+  <line x1="250" y1="175" x2="350" y2="200" stroke="#3498db" stroke-width="2"/>
+  <line x1="250" y1="325" x2="350" y2="300" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="550" y1="175" x2="450" y2="200" stroke="#f1c40f" stroke-width="2"/>
+  <line x1="550" y1="325" x2="450" y2="300" stroke="#2ecc71" stroke-width="2"/>
+  <line x1="400" y1="160" x2="400" y2="200" stroke="#9b59b6" stroke-width="2"/>
+  <line x1="400" y1="340" x2="400" y2="300" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Risk Level Indicators -->
+  <rect x="100" y="460" width="600" height="30" fill="white" stroke="#dee2e6" rx="5" ry="5"/>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Risk Level Impact on Insurance</text>
+  
+  <rect x="150" y="460" width="30" height="10" fill="#27ae60"/>
+  <text x="165" y="485" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Low</text>
+  
+  <rect x="250" y="460" width="30" height="10" fill="#f39c12"/>
+  <text x="265" y="485" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Medium</text>
+  
+  <rect x="350" y="460" width="30" height="10" fill="#e74c3c"/>
+  <text x="365" y="485" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">High</text>
+  
+  <rect x="450" y="460" width="30" height="10" fill="#c0392b"/>
+  <text x="465" y="485" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Very High</text>
+  
+  <rect x="550" y="460" width="30" height="10" fill="#7f8c8d"/>
+  <text x="565" y="485" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Potential Exclusion</text>
+  
+  <!-- Risk Ratings -->
+  <rect x="260" y="150" width="40" height="20" fill="#e74c3c" rx="5" ry="5"/>
+  <text x="280" y="165" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">HIGH</text>
+  
+  <rect x="260" y="350" width="40" height="20" fill="#e74c3c" rx="5" ry="5"/>
+  <text x="280" y="365" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">HIGH</text>
+  
+  <rect x="540" y="150" width="40" height="20" fill="#e74c3c" rx="5" ry="5"/>
+  <text x="560" y="165" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">HIGH</text>
+  
+  <rect x="540" y="350" width="40" height="20" fill="#f39c12" rx="5" ry="5"/>
+  <text x="560" y="365" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">MED</text>
+  
+  <rect x="400" y="160" width="40" height="20" fill="#f39c12" rx="5" ry="5"/>
+  <text x="420" y="175" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">MED</text>
+  
+  <rect x="400" y="340" width="40" height="20" fill="#f39c12" rx="5" ry="5"/>
+  <text x="420" y="355" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">MED</text>
+</svg>

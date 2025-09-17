@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Auction Property Financing Decision Tree</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Find your optimal financing solution based on your circumstances</text>
+  
+  <!-- Start Node -->
+  <rect x="350" y="100" width="100" height="50" fill="#3498db" rx="10" ry="10"/>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">START</text>
+  
+  <!-- First Question Node -->
+  <rect x="300" y="180" width="200" height="60" fill="#f1c40f" rx="10" ry="10"/>
+  <text x="400" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Do you have sufficient</text>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">cash available?</text>
+  
+  <!-- Connecting Line -->
+  <line x1="400" y1="150" x2="400" y2="180" stroke="#333" stroke-width="2"/>
+  <polygon points="395,175 400,180 405,175" fill="#333"/>
+  
+  <!-- Yes Branch -->
+  <line x1="300" y1="210" x2="200" y2="270" stroke="#333" stroke-width="2"/>
+  <polygon points="205,265 200,270 210,275" fill="#333"/>
+  <text x="240" y="230" font-family="Arial, sans-serif" font-size="12" fill="#333">Yes</text>
+  
+  <!-- No Branch -->
+  <line x1="500" y1="210" x2="600" y2="270" stroke="#333" stroke-width="2"/>
+  <polygon points="595,265 600,270 590,275" fill="#333"/>
+  <text x="560" y="230" font-family="Arial, sans-serif" font-size="12" fill="#333">No</text>
+  
+  <!-- Cash Question Node -->
+  <rect x="100" y="270" width="200" height="60" fill="#f1c40f" rx="10" ry="10"/>
+  <text x="200" y="295" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Do you need the fastest</text>
+  <text x="200" y="315" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">possible completion?</text>
+  
+  <!-- Financing Question Node -->
+  <rect x="500" y="270" width="200" height="60" fill="#f1c40f" rx="10" ry="10"/>
+  <text x="600" y="295" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">What is your</text>
+  <text x="600" y="315" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">timeframe?</text>
+  
+  <!-- Cash Yes Branch -->
+  <line x1="150" y1="330" x2="100" y2="370" stroke="#333" stroke-width="2"/>
+  <polygon points="105,365 100,370 110,375" fill="#333"/>
+  <text x="110" y="350" font-family="Arial, sans-serif" font-size="12" fill="#333">Yes</text>
+  
+  <!-- Cash No Branch -->
+  <line x1="250" y1="330" x2="300" y2="370" stroke="#333" stroke-width="2"/>
+  <polygon points="295,365 300,370 290,375" fill="#333"/>
+  <text x="290" y="350" font-family="Arial, sans-serif" font-size="12" fill="#333">No</text>
+  
+  <!-- Financing Urgent Branch -->
+  <line x1="550" y1="330" x2="500" y2="370" stroke="#333" stroke-width="2"/>
+  <polygon points="505,365 500,370 510,375" fill="#333"/>
+  <text x="510" y="350" font-family="Arial, sans-serif" font-size="12" fill="#333">Urgent (< 4 weeks)</text>
+  
+  <!-- Financing Standard Branch -->
+  <line x1="650" y1="330" x2="700" y2="370" stroke="#333" stroke-width="2"/>
+  <polygon points="695,365 700,370 690,375" fill="#333"/>
+  <text x="690" y="350" font-family="Arial, sans-serif" font-size="12" fill="#333">Standard (4+ weeks)</text>
+  
+  <!-- Cash Option -->
+  <rect x="50" y="370" width="100" height="60" fill="#27ae60" rx="10" ry="10"/>
+  <text x="100" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Cash</text>
+  <text x="100" y="415" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Purchase</text>
+  
+  <!-- Cash with Refinance Option -->
+  <rect x="250" y="370" width="100" height="60" fill="#27ae60" rx="10" ry="10"/>
+  <text x="300" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Cash with</text>
+  <text x="300" y="415" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Later Refinance</text>
+  
+  <!-- Bridging Loan Question -->
+  <rect x="450" y="370" width="100" height="60" fill="#f1c40f" rx="10" ry="10"/>
+  <text x="500" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Property</text>
+  <text x="500" y="415" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Condition?</text>
+  
+  <!-- Mortgage Question -->
+  <rect x="650" y="370" width="100" height="60" fill="#f1c40f" rx="10" ry="10"/>
+  <text x="700" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Property</text>
+  <text x="700" y="415" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Purpose?</text>
+  
+  <!-- Bridging Any Condition Branch -->
+  <line x1="475" y1="430" x2="450" y2="470" stroke="#333" stroke-width="2"/>
+  <polygon points="455,465 450,470 460,475" fill="#333"/>
+  <text x="440" y="450" font-family="Arial, sans-serif" font-size="12" fill="#333">Any</text>
+  
+  <!-- Bridging Major Works Branch -->
+  <line x1="525" y1="430" x2="550" y2="470" stroke="#333" stroke-width="2"/>
+  <polygon points="545,465 550,470 540,475" fill="#333"/>
+  <text x="560" y="450" font-family="Arial, sans-serif" font-size="12" fill="#333">Major works</text>
+  
+  <!-- Mortgage Habitable Branch -->
+  <line x1="675" y1="430" x2="650" y2="470" stroke="#333" stroke-width="2"/>
+  <polygon points="655,465 650,470 660,475" fill="#333"/>
+  <text x="640" y="450" font-family="Arial, sans-serif" font-size="12" fill="#333">Rental</text>
+  
+  <!-- Mortgage Development Branch -->
+  <line x1="725" y1="430" x2="750" y2="470" stroke="#333" stroke-width="2"/>
+  <polygon points="745,465 750,470 740,475" fill="#333"/>
+  <text x="760" y="450" font-family="Arial, sans-serif" font-size="12" fill="#333">Development</text>
+  
+  <!-- Bridging Loan Option -->
+  <rect x="400" y="470" width="100" height="60" fill="#f39c12" rx="10" ry="10"/>
+  <text x="450" y="495" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Bridging</text>
+  <text x="450" y="515" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Loan</text>
+  
+  <!-- Auction Finance Option -->
+  <rect x="500" y="470" width="100" height="60" fill="#3498db" rx="10" ry="10"/>
+  <text x="550" y="495" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Auction</text>
+  <text x="550" y="515" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Finance</text>
+  
+  <!-- Buy-to-Let Mortgage Option -->
+  <rect x="600" y="470" width="100" height="60" fill="#e74c3c" rx="10" ry="10"/>
+  <text x="650" y="495" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Buy-to-Let</text>
+  <text x="650" y="515" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Mortgage</text>
+  
+  <!-- Development Finance Option -->
+  <rect x="700" y="470" width="100" height="60" fill="#9b59b6" rx="10" ry="10"/>
+  <text x="750" y="495" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Development</text>
+  <text x="750" y="515" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Finance</text>
+  
+  <!-- Option Descriptions -->
+  <!-- Cash -->
+  <rect x="25" y="450" width="150" height="80" fill="#f8f9fa" stroke="#27ae60" stroke-width="2" rx="5" ry="5"/>
+  <text x="100" y="470" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Fastest completion</text>
+  <text x="100" y="490" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• No financing costs</text>
+  <text x="100" y="510" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Maximum flexibility</text>
+  <text x="100" y="530" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Any property condition</text>
+  
+  <!-- Cash with Refinance -->
+  <rect x="225" y="450" width="150" height="80" fill="#f8f9fa" stroke="#27ae60" stroke-width="2" rx="5" ry="5"/>
+  <text x="300" y="470" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Quick initial purchase</text>
+  <text x="300" y="490" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Release equity later</text>
+  <text x="300" y="510" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Better mortgage terms</text>
+  <text x="300" y="530" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• After improvements</text>
+  
+  <!-- Bridging -->
+  <rect x="400" y="550" width="100" height="0" fill="none" stroke="none"/>
+  <line x1="450" y1="530" x2="450" y2="550" stroke="#f39c12" stroke-width="2"/>
+  <polygon points="445,545 450,550 455,545" fill="#f39c12"/>
+  
+  <!-- Auction Finance -->
+  <rect x="500" y="550" width="100" height="0" fill="none" stroke="none"/>
+  <line x1="550" y1="530" x2="550" y2="550" stroke="#3498db" stroke-width="2"/>
+  <polygon points="545,545 550,550 555,545" fill="#3498db"/>
+  
+  <!-- Bridging and Auction Finance Description -->
+  <rect x="400" y="550" width="200" height="80" fill="#f8f9fa" stroke="#f39c12" stroke-width="2" rx="5" ry="5"/>
+  <text x="500" y="570" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Fast completion (7-21 days)</text>
+  <text x="500" y="590" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Short-term (3-12 months)</text>
+  <text x="500" y="610" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Higher interest rates</text>
+  <text x="500" y="630" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Exit strategy required</text>
+  
+  <!-- Buy-to-Let Mortgage -->
+  <rect x="600" y="550" width="100" height="0" fill="none" stroke="none"/>
+  <line x1="650" y1="530" x2="650" y2="550" stroke="#e74c3c" stroke-width="2"/>
+  <polygon points="645,545 650,550 655,545" fill="#e74c3c"/>
+  
+  <!-- Development Finance -->
+  <rect x="700" y="550" width="100" height="0" fill="none" stroke="none"/>
+  <line x1="750" y1="530" x2="750" y2="550" stroke="#9b59b6" stroke-width="2"/>
+  <polygon points="745,545 750,550 755,545" fill="#9b59b6"/>
+  
+  <!-- Mortgage and Development Finance Description -->
+  <rect x="625" y="550" width="200" height="80" fill="#f8f9fa" stroke="#e74c3c" stroke-width="2" rx="5" ry="5"/>
+  <text x="725" y="570" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Lower interest rates</text>
+  <text x="725" y="590" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Longer terms</text>
+  <text x="725" y="610" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• More stringent criteria</text>
+  <text x="725" y="630" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Slower approval process</text>
+</svg>

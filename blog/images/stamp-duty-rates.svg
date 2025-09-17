@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Stamp Duty Land Tax Rates (2025)</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">For residential properties in England and Northern Ireland</text>
+  
+  <!-- Chart Area -->
+  <rect x="100" y="100" width="600" height="220" fill="white" stroke="#dee2e6"/>
+  
+  <!-- Y-axis (Tax Rate %) -->
+  <line x1="100" y1="100" x2="100" y2="320" stroke="#adb5bd" stroke-width="1"/>
+  <text x="95" y="105" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">12%</text>
+  <text x="95" y="141" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">10%</text>
+  <text x="95" y="177" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">8%</text>
+  <text x="95" y="213" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">6%</text>
+  <text x="95" y="249" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">4%</text>
+  <text x="95" y="285" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">2%</text>
+  <text x="95" y="320" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">0%</text>
+  <text x="70" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle" transform="rotate(-90, 70, 210)">Tax Rate</text>
+  
+  <!-- X-axis (Property Value) -->
+  <line x1="100" y1="320" x2="700" y2="320" stroke="#adb5bd" stroke-width="1"/>
+  <text x="160" y="340" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">£0-£250k</text>
+  <text x="280" y="340" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">£250k-£925k</text>
+  <text x="400" y="340" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">£925k-£1.5m</text>
+  <text x="520" y="340" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Over £1.5m</text>
+  <text x="640" y="340" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Additional</text>
+  <text x="640" y="355" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Property</text>
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Property Value Band</text>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="141" x2="700" y2="141" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="177" x2="700" y2="177" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="213" x2="700" y2="213" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="249" x2="700" y2="249" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="285" x2="700" y2="285" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="220" y1="100" x2="220" y2="320" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="340" y1="100" x2="340" y2="320" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="460" y1="100" x2="460" y2="320" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="580" y1="100" x2="580" y2="320" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Data Bars - Standard Rates -->
+  <rect x="130" y="320" width="60" height="0" fill="#3498db" rx="2" ry="2"/>
+  <text x="160" y="315" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">0%</text>
+  
+  <rect x="250" y="249" width="60" height="71" fill="#3498db" rx="2" ry="2"/>
+  <text x="280" y="244" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">5%</text>
+  
+  <rect x="370" y="177" width="60" height="143" fill="#3498db" rx="2" ry="2"/>
+  <text x="400" y="172" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">10%</text>
+  
+  <rect x="490" y="141" width="60" height="179" fill="#3498db" rx="2" ry="2"/>
+  <text x="520" y="136" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">12%</text>
+  
+  <!-- Data Bar - Additional Property -->
+  <rect x="610" y="249" width="60" height="71" fill="#e74c3c" rx="2" ry="2"/>
+  <text x="640" y="244" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">3% surcharge</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="120" width="140" height="60" fill="white" rx="5" ry="5" stroke="#dee2e6"/>
+  <text x="620" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Legend</text>
+  
+  <rect x="570" y="155" width="15" height="15" fill="#3498db" rx="2" ry="2"/>
+  <text x="595" y="167" font-family="Arial, sans-serif" font-size="12" fill="#333">Standard Rate</text>
+  
+  <rect x="570" y="175" width="15" height="15" fill="#e74c3c" rx="2" ry="2"/>
+  <text x="595" y="187" font-family="Arial, sans-serif" font-size="12" fill="#333">Additional Rate</text>
+  
+  <!-- Key Notes -->
+  <rect x="100" y="100" width="200" height="80" fill="#f8f9fa" stroke="#dee2e6" rx="5" ry="5"/>
+  <text x="120" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Key Notes:</text>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="10" fill="#333">• First-time buyers: 0% up to £425,000</text>
+  <text x="120" y="155" font-family="Arial, sans-serif" font-size="10" fill="#333">• Additional property: +3% on all bands</text>
+  <text x="120" y="170" font-family="Arial, sans-serif" font-size="10" fill="#333">• Non-UK residents: +2% surcharge</text>
+</svg>

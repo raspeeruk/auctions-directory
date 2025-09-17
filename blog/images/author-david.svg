@@ -1,46 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <!-- Background Circle -->
-  <circle cx="75" cy="75" r="75" fill="#f0f0f0"/>
-  
-  <!-- Hair -->
-  <path d="M75,30 C45,30 40,65 40,85 C40,105 55,115 75,115 C95,115 110,105 110,85 C110,65 105,30 75,30 Z" fill="#6d4c41"/>
+  <circle cx="50" cy="50" r="50" fill="#2c3e50"/>
   
   <!-- Face -->
-  <ellipse cx="75" cy="75" rx="30" ry="35" fill="#f5d0a9"/>
+  <circle cx="50" cy="45" r="25" fill="#e6b89c"/>
+  
+  <!-- Hair -->
+  <path d="M25 35 Q50 15 75 35 L75 25 Q50 5 25 25 Z" fill="#7f8c8d"/>
+  <path d="M25 35 Q30 25 35 30 L25 30 Z" fill="#7f8c8d"/>
+  <path d="M75 35 Q70 25 65 30 L75 30 Z" fill="#7f8c8d"/>
+  <path d="M25 35 Q25 45 25 55 L30 55 Q30 45 30 35 Z" fill="#7f8c8d"/>
+  <path d="M75 35 Q75 45 75 55 L70 55 Q70 45 70 35 Z" fill="#7f8c8d"/>
+  
+  <!-- Ears -->
+  <ellipse cx="25" cy="45" rx="5" ry="8" fill="#e6b89c"/>
+  <ellipse cx="75" cy="45" rx="5" ry="8" fill="#e6b89c"/>
   
   <!-- Eyes -->
-  <ellipse cx="65" cy="70" rx="5" ry="3" fill="#36454F"/>
-  <ellipse cx="85" cy="70" rx="5" ry="3" fill="#36454F"/>
+  <ellipse cx="40" cy="40" rx="3" ry="2" fill="#2c3e50"/>
+  <ellipse cx="60" cy="40" rx="3" ry="2" fill="#2c3e50"/>
   
   <!-- Eyebrows -->
-  <path d="M60,63 Q65,60 70,63" fill="none" stroke="#6d4c41" stroke-width="2"/>
-  <path d="M80,63 Q85,60 90,63" fill="none" stroke="#6d4c41" stroke-width="2"/>
+  <path d="M37 36 Q40 34 43 36" fill="none" stroke="#7f8c8d" stroke-width="1.5"/>
+  <path d="M57 36 Q60 34 63 36" fill="none" stroke="#7f8c8d" stroke-width="1.5"/>
   
   <!-- Nose -->
-  <path d="M75,75 Q77,80 75,85" fill="none" stroke="#f5d0a9" stroke-width="2"/>
+  <path d="M50 42 Q53 48 50 50" fill="none" stroke="#d35400" stroke-width="1"/>
   
   <!-- Mouth -->
-  <path d="M65,90 Q75,95 85,90" fill="none" stroke="#d57e7e" stroke-width="2"/>
+  <path d="M42 55 Q50 58 58 55" fill="none" stroke="#c0392b" stroke-width="1.5"/>
   
   <!-- Beard -->
-  <path d="M60,85 C60,95 65,105 75,105 C85,105 90,95 90,85" fill="#6d4c41"/>
-  <path d="M60,85 Q75,95 90,85" fill="#6d4c41"/>
+  <path d="M35 55 Q50 65 65 55 Q60 65 50 68 Q40 65 35 55" fill="#7f8c8d" fill-opacity="0.7"/>
   
-  <!-- Neck -->
-  <path d="M65,110 L65,120 L85,120 L85,110" fill="#f5d0a9"/>
+  <!-- Suit -->
+  <path d="M25 75 L35 65 L45 75 L50 70 L55 75 L65 65 L75 75 L65 100 L35 100 Z" fill="#34495e"/>
   
-  <!-- Shoulders/Clothing -->
-  <path d="M40,120 C50,115 60,115 75,115 C90,115 100,115 110,120 L110,150 L40,150 Z" fill="#607d8b"/>
-  
-  <!-- Hair Details -->
-  <path d="M60,40 C65,35 70,35 75,40 C80,45 85,45 90,40" fill="none" stroke="#5d4037" stroke-width="3"/>
-  
-  <!-- Glasses -->
-  <rect x="55" y="65" width="20" height="12" rx="5" ry="5" fill="none" stroke="#36454F" stroke-width="1.5"/>
-  <rect x="75" y="65" width="20" height="12" rx="5" ry="5" fill="none" stroke="#36454F" stroke-width="1.5"/>
-  <path d="M75,71 L75,71" stroke="#36454F" stroke-width="1.5"/>
+  <!-- Shirt -->
+  <path d="M45 75 L50 70 L55 75 L50 100 Z" fill="#ecf0f1"/>
   
   <!-- Tie -->
-  <path d="M75,120 L70,130 L75,150 L80,130 L75,120 Z" fill="#e74c3c"/>
+  <path d="M50 75 L53 85 L50 100 L47 85 Z" fill="#2980b9"/>
+  
+  <!-- Glasses -->
+  <rect x="36" y="38" width="8" height="5" rx="2" ry="2" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  <rect x="56" y="38" width="8" height="5" rx="2" ry="2" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  <path d="M44 40 L56 40" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  <path d="M36 40 L32 38" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  <path d="M64 40 L68 38" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Pocket Square -->
+  <rect x="60" y="75" width="5" height="5" fill="#e74c3c"/>
 </svg>

@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <!-- Background Circle -->
-  <circle cx="50" cy="50" r="50" fill="#2c3e50"/>
+  <circle cx="50" cy="50" r="50" fill="#f39c12"/>
   
   <!-- Face -->
   <circle cx="50" cy="45" r="25" fill="#f5d0a9"/>
   
   <!-- Hair -->
-  <path d="M25 35 Q50 10 75 35 L75 25 Q50 0 25 25 Z" fill="#7f8c8d"/>
-  <path d="M25 35 Q30 25 35 30 Q40 35 45 30 Q50 25 55 30 Q60 35 65 30 Q70 25 75 35 Z" fill="#7f8c8d"/>
-  
-  <!-- Receding Hairline -->
-  <path d="M35 30 Q40 25 45 30 L45 25 Q40 20 35 25 Z" fill="#f5d0a9"/>
-  <path d="M55 30 Q60 25 65 30 L65 25 Q60 20 55 25 Z" fill="#f5d0a9"/>
+  <path d="M25 35 Q50 10 75 35 L75 25 Q50 0 25 25 Z" fill="#34495e"/>
+  <path d="M25 35 Q30 25 35 30 Q40 35 45 30 Q50 25 55 30 Q60 35 65 30 Q70 25 75 35 Z" fill="#34495e"/>
   
   <!-- Eyes -->
   <ellipse cx="40" cy="40" rx="3" ry="4" fill="#333"/>
   <ellipse cx="60" cy="40" rx="3" ry="4" fill="#333"/>
   
   <!-- Eyebrows -->
-  <path d="M35 35 Q40 32 45 35" fill="none" stroke="#7f8c8d" stroke-width="2"/>
-  <path d="M55 35 Q60 32 65 35" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+  <path d="M35 35 Q40 32 45 35" fill="none" stroke="#34495e" stroke-width="2"/>
+  <path d="M55 35 Q60 32 65 35" fill="none" stroke="#34495e" stroke-width="2"/>
   
   <!-- Nose -->
   <path d="M50 42 Q53 48 50 52" fill="none" stroke="#e59866" stroke-width="2"/>
   
   <!-- Mouth -->
   <path d="M40 60 Q50 65 60 60" fill="none" stroke="#c0392b" stroke-width="2"/>
-  
-  <!-- Beard -->
-  <path d="M35 55 Q40 70 50 75 Q60 70 65 55" fill="none" stroke="#7f8c8d" stroke-width="1"/>
-  <path d="M40 60 Q50 80 60 60" fill="none" stroke="#7f8c8d" stroke-width="1"/>
   
   <!-- Glasses -->
   <rect x="35" y="38" width="10" height="8" rx="2" ry="2" fill="none" stroke="#333" stroke-width="1.5"/>
@@ -39,7 +31,11 @@
   <line x1="33" y1="42" x2="35" y2="42" stroke="#333" stroke-width="1.5"/>
   <line x1="65" y1="42" x2="67" y2="42" stroke="#333" stroke-width="1.5"/>
   
-  <!-- Suit Collar -->
+  <!-- Money Symbol -->
+  <circle cx="70" cy="65" r="10" fill="#27ae60" stroke="#333" stroke-width="1"/>
+  <text x="70" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">£</text>
+  
+  <!-- Suit -->
   <path d="M30 85 L40 75 L50 80 L60 75 L70 85" fill="#34495e"/>
   <path d="M45 75 L50 85 L55 75" fill="white"/>
   
@@ -47,6 +43,6 @@
   <path d="M50 85 L48 90 L50 95 L52 90 L50 85" fill="#e74c3c"/>
   
   <!-- Name Tag -->
-  <rect x="25" y="85" width="50" height="15" rx="2" ry="2" fill="#2c3e50"/>
-  <text x="50" y="97" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">ROBERT</text>
+  <rect x="25" y="85" width="50" height="15" rx="2" ry="2" fill="#f39c12"/>
+  <text x="50" y="97" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">DANIEL</text>
 </svg>

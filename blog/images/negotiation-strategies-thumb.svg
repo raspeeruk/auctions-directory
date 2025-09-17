@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- Title Bar -->
+  <rect width="300" height="40" fill="#3498db"/>
+  <text x="150" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Auction Negotiation Strategies</text>
+  
+  <!-- Negotiation Icons -->
+  <g transform="translate(30, 60)">
+    <!-- Pre-Auction -->
+    <circle cx="40" cy="40" r="30" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+    <text x="40" y="45" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">PRE</text>
+    
+    <!-- Arrow -->
+    <path d="M75 40 L105 40" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="105,40 100,35 100,45" fill="#7f8c8d"/>
+    
+    <!-- During Auction -->
+    <circle cx="120" cy="40" r="30" fill="#ecf0f1" stroke="#e74c3c" stroke-width="2"/>
+    <text x="120" y="45" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">DURING</text>
+    
+    <!-- Arrow -->
+    <path d="M155 40 L185 40" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="185,40 180,35 180,45" fill="#7f8c8d"/>
+    
+    <!-- Post-Auction -->
+    <circle cx="200" cy="40" r="30" fill="#ecf0f1" stroke="#2ecc71" stroke-width="2"/>
+    <text x="200" y="45" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">POST</text>
+  </g>
+  
+  <!-- Negotiation Elements -->
+  <g transform="translate(50, 120)">
+    <!-- Document -->
+    <rect x="0" y="0" width="30" height="40" fill="white" stroke="#34495e" stroke-width="1"/>
+    <line x1="5" y1="10" x2="25" y2="10" stroke="#34495e" stroke-width="1"/>
+    <line x1="5" y1="15" x2="25" y2="15" stroke="#34495e" stroke-width="1"/>
+    <line x1="5" y1="20" x2="25" y2="20" stroke="#34495e" stroke-width="1"/>
+    <line x1="5" y1="25" x2="15" y2="25" stroke="#34495e" stroke-width="1"/>
+    
+    <!-- Handshake -->
+    <circle cx="100" cy="20" r="20" fill="#f39c12" fill-opacity="0.2"/>
+    <path d="M85 20 Q95 10 100 20 Q105 30 115 20" fill="none" stroke="#f39c12" stroke-width="2"/>
+    
+    <!-- Money/Property -->
+    <rect x="150" y="0" width="30" height="25" fill="#2ecc71" fill-opacity="0.2" stroke="#2ecc71" stroke-width="1"/>
+    <polygon points="150,0 165,0 180,0 180,25 165,40 150,25" fill="#2ecc71" fill-opacity="0.2" stroke="#2ecc71" stroke-width="1"/>
+    <text x="165" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2ecc71" text-anchor="middle">£</text>
+  </g>
+  
+  <!-- Bottom Text -->
+  <text x="150" y="185" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Expert strategies for every auction phase</text>
+</svg>

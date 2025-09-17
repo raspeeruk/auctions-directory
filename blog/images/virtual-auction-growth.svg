@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50" text-anchor="middle">Growth of Virtual Property Auctions in the UK</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d" text-anchor="middle">Percentage of total auction sales conducted virtually (2020-2025)</text>
+  
+  <!-- Chart Area -->
+  <rect x="100" y="100" width="600" height="250" fill="white" stroke="#ecf0f1" stroke-width="1"/>
+  
+  <!-- Grid Lines -->
+  <line x1="100" y1="150" x2="700" y2="150" stroke="#ecf0f1" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#ecf0f1" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#ecf0f1" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#ecf0f1" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Y-Axis Labels -->
+  <text x="90" y="100" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="end">100%</text>
+  <text x="90" y="150" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="end">80%</text>
+  <text x="90" y="200" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="end">60%</text>
+  <text x="90" y="250" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="end">40%</text>
+  <text x="90" y="300" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="end">20%</text>
+  <text x="90" y="350" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="end">0%</text>
+  
+  <!-- X-Axis Labels -->
+  <text x="100" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">2020</text>
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">2021</text>
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">2022</text>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">2023</text>
+  <text x="500" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">2024</text>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">2025</text>
+  <text x="700" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">2026*</text>
+  
+  <!-- Data Points -->
+  <!-- 2020: 15% -->
+  <circle cx="100" cy="297.5" r="5" fill="#3498db"/>
+  <!-- 2021: 35% -->
+  <circle cx="200" cy="250" r="5" fill="#3498db"/>
+  <!-- 2022: 48% -->
+  <circle cx="300" cy="220" r="5" fill="#3498db"/>
+  <!-- 2023: 62% -->
+  <circle cx="400" cy="185" r="5" fill="#3498db"/>
+  <!-- 2024: 75% -->
+  <circle cx="500" cy="150" r="5" fill="#3498db"/>
+  <!-- 2025: 85% -->
+  <circle cx="600" cy="125" r="5" fill="#3498db"/>
+  <!-- 2026: 92% (projected) -->
+  <circle cx="700" cy="108" r="5" fill="#3498db" fill-opacity="0.5"/>
+  
+  <!-- Line Chart -->
+  <polyline points="100,297.5 200,250 300,220 400,185 500,150 600,125" fill="none" stroke="#3498db" stroke-width="3"/>
+  <polyline points="600,125 700,108" fill="none" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+  
+  <!-- Area Under the Curve -->
+  <path d="M100,350 L100,297.5 L200,250 L300,220 L400,185 L500,150 L600,125 L600,350 Z" fill="#3498db" fill-opacity="0.1"/>
+  <path d="M600,350 L600,125 L700,108 L700,350 Z" fill="#3498db" fill-opacity="0.05"/>
+  
+  <!-- Key Events -->
+  <line x1="100" y1="297.5" x2="100" y2="320" stroke="#e74c3c" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="100" y="335" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" text-anchor="middle">COVID-19</text>
+  
+  <line x1="300" y1="220" x2="300" y2="320" stroke="#e74c3c" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="300" y="335" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" text-anchor="middle">Tech Adoption</text>
+  
+  <line x1="500" y1="150" x2="500" y2="320" stroke="#e74c3c" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="500" y="335" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" text-anchor="middle">Market Shift</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="80" width="150" height="30" rx="5" fill="white" stroke="#ecf0f1" stroke-width="1"/>
+  <circle cx="570" cy="95" r="5" fill="#3498db"/>
+  <text x="580" y="100" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Actual Data</text>
+  <circle cx="650" cy="95" r="5" fill="#3498db" fill-opacity="0.5"/>
+  <text x="660" y="100" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Projected</text>
+  
+  <!-- Footnote -->
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">*2026 figures are projections based on current growth trends</text>
+</svg>

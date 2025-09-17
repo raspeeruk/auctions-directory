@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <!-- Background Circle -->
-  <circle cx="50" cy="50" r="50" fill="#e74c3c"/>
+  <circle cx="50" cy="50" r="50" fill="#9b59b6"/>
   
   <!-- Face -->
   <circle cx="50" cy="45" r="25" fill="#f5d0a9"/>
@@ -37,14 +37,14 @@
   <line x1="33" y1="42" x2="35" y2="42" stroke="#333" stroke-width="1.5"/>
   <line x1="65" y1="42" x2="67" y2="42" stroke="#333" stroke-width="1.5"/>
   
-  <!-- Magnifying Glass -->
-  <circle cx="70" cy="65" r="8" fill="none" stroke="#333" stroke-width="1.5"/>
-  <line x1="65" y1="70" x2="60" y2="75" stroke="#333" stroke-width="2"/>
+  <!-- Insurance Shield -->
+  <path d="M 65 60 L 75 60 L 78 65 L 75 75 L 65 75 L 62 65 Z" fill="#3498db" stroke="#333" stroke-width="1"/>
+  <text x="70" y="70" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">INS</text>
   
   <!-- Shirt Collar -->
-  <path d="M30 85 L40 75 L50 80 L60 75 L70 85" fill="#c0392b"/>
+  <path d="M30 85 L40 75 L50 80 L60 75 L70 85" fill="#9b59b6"/>
   
   <!-- Name Tag -->
-  <rect x="25" y="85" width="50" height="15" rx="2" ry="2" fill="#c0392b"/>
-  <text x="50" y="97" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">JENNIFER</text>
+  <rect x="25" y="85" width="50" height="15" rx="2" ry="2" fill="#8e44ad"/>
+  <text x="50" y="97" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">RACHEL</text>
 </svg>

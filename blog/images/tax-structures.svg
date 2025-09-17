@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Property Ownership Structure Tax Comparison</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Tax implications for different ownership structures</text>
+  
+  <!-- Table Header -->
+  <rect x="100" y="100" width="200" height="50" fill="#3498db" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="100" width="150" height="50" fill="#3498db" stroke="#333" stroke-width="1"/>
+  <rect x="450" y="100" width="150" height="50" fill="#3498db" stroke="#333" stroke-width="1"/>
+  <rect x="600" y="100" width="150" height="50" fill="#3498db" stroke="#333" stroke-width="1"/>
+  
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Tax Consideration</text>
+  <text x="375" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Individual</text>
+  <text x="525" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Limited Company</text>
+  <text x="675" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Partnership</text>
+  
+  <!-- Row 1: Income Tax -->
+  <rect x="100" y="150" width="200" height="60" fill="#ecf0f1" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="150" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="450" y="150" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="600" y="150" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Income Tax on Rental</text>
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Income</text>
+  <text x="375" y="180" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">20-45% based on</text>
+  <text x="375" y="200" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">income tax bands</text>
+  <text x="525" y="180" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">19% Corporation Tax</text>
+  <text x="525" y="200" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">+ dividend tax</text>
+  <text x="675" y="180" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">20-45% on partner's</text>
+  <text x="675" y="200" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">share of profits</text>
+  
+  <!-- Row 2: Mortgage Interest -->
+  <rect x="100" y="210" width="200" height="60" fill="#ecf0f1" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="210" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="450" y="210" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="600" y="210" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Mortgage Interest</text>
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Relief</text>
+  <text x="375" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">20% tax credit only</text>
+  <text x="375" y="260" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">(Section 24)</text>
+  <text x="525" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Fully deductible as</text>
+  <text x="525" y="260" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">business expense</text>
+  <text x="675" y="240" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">20% tax credit only</text>
+  <text x="675" y="260" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">(Section 24)</text>
+  
+  <!-- Row 3: Capital Gains Tax -->
+  <rect x="100" y="270" width="200" height="60" fill="#ecf0f1" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="270" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="450" y="270" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="600" y="270" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="200" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Capital Gains Tax</text>
+  <text x="375" y="300" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">18% (basic rate) or</text>
+  <text x="375" y="320" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">28% (higher rate)</text>
+  <text x="525" y="300" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">19% Corporation Tax</text>
+  <text x="525" y="320" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">on gains</text>
+  <text x="675" y="300" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">18% or 28% on</text>
+  <text x="675" y="320" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">partner's share</text>
+  
+  <!-- Row 4: Stamp Duty -->
+  <rect x="100" y="330" width="200" height="60" fill="#ecf0f1" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="330" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="450" y="330" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="600" y="330" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Stamp Duty Land Tax</text>
+  <text x="375" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Standard rates</text>
+  <text x="375" y="380" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">+3% for additional</text>
+  <text x="525" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Standard rates</text>
+  <text x="525" y="380" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">+3% surcharge</text>
+  <text x="675" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Standard rates</text>
+  <text x="675" y="380" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">+3% surcharge</text>
+  
+  <!-- Row 5: Inheritance Tax -->
+  <rect x="100" y="390" width="200" height="60" fill="#ecf0f1" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="390" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="450" y="390" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="600" y="390" width="150" height="60" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Inheritance Tax</text>
+  <text x="375" y="420" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">40% above</text>
+  <text x="375" y="440" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">threshold</text>
+  <text x="525" y="420" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Shares may qualify</text>
+  <text x="525" y="440" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">for Business Relief</text>
+  <text x="675" y="420" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">40% above</text>
+  <text x="675" y="440" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">threshold</text>
+  
+  <!-- Highlight for Best Option -->
+  <rect x="450" y="210" width="150" height="60" fill="rgba(46, 204, 113, 0.2)" stroke="#333" stroke-width="1"/>
+  <rect x="450" y="270" width="150" height="60" fill="rgba(46, 204, 113, 0.2)" stroke="#333" stroke-width="1"/>
+  <rect x="450" y="390" width="150" height="60" fill="rgba(46, 204, 113, 0.2)" stroke="#333" stroke-width="1"/>
+  
+  <!-- Note -->
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Note: Tax rates and rules are subject to change. Highlighted cells indicate potential tax advantages.</text>
+  <text x="400" y="490" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Always consult with a qualified tax professional for advice specific to your circumstances.</text>
+</svg>

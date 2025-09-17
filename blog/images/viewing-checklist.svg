@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Comprehensive Auction Property Viewing Checklist</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Essential items to inspect before bidding</text>
+  
+  <!-- Clipboard Background -->
+  <rect x="100" y="90" width="600" height="480" fill="white" stroke="#333" stroke-width="2" rx="10" ry="10"/>
+  <rect x="100" y="90" width="600" height="30" fill="#3498db" stroke="#333" stroke-width="2" rx="10" ry="10"/>
+  <rect x="120" y="90" width="560" height="30" fill="#3498db"/>
+  <text x="400" y="112" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">PROPERTY INSPECTION CHECKLIST</text>
+  
+  <!-- Clipboard Clip -->
+  <rect x="380" y="80" width="40" height="20" fill="#95a5a6" rx="5" ry="5"/>
+  <rect x="390" y="75" width="20" height="10" fill="#7f8c8d" rx="2" ry="2"/>
+  
+  <!-- Section 1: Exterior -->
+  <rect x="120" y="130" width="560" height="30" fill="#e74c3c" rx="5" ry="5"/>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">EXTERIOR INSPECTION</text>
+  
+  <!-- Checklist Items - Exterior -->
+  <rect x="130" y="170" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="185" font-family="Arial, sans-serif" font-size="14" fill="#333">Roof condition (missing tiles, sagging)</text>
+  
+  <rect x="130" y="200" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="215" font-family="Arial, sans-serif" font-size="14" fill="#333">Exterior walls (cracks, bulging, damaged brickwork)</text>
+  
+  <rect x="130" y="230" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="245" font-family="Arial, sans-serif" font-size="14" fill="#333">Foundation issues (subsidence signs)</text>
+  
+  <rect x="130" y="260" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="275" font-family="Arial, sans-serif" font-size="14" fill="#333">Windows and doors (condition, double glazing)</text>
+  
+  <rect x="130" y="290" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="305" font-family="Arial, sans-serif" font-size="14" fill="#333">Guttering and drainage (damage, leaks)</text>
+  
+  <rect x="430" y="170" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="185" font-family="Arial, sans-serif" font-size="14" fill="#333">Garden/land boundaries and access</text>
+  
+  <rect x="430" y="200" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="215" font-family="Arial, sans-serif" font-size="14" fill="#333">Outbuildings and garages</text>
+  
+  <rect x="430" y="230" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="245" font-family="Arial, sans-serif" font-size="14" fill="#333">Neighboring properties condition</text>
+  
+  <rect x="430" y="260" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="275" font-family="Arial, sans-serif" font-size="14" fill="#333">Parking availability and restrictions</text>
+  
+  <rect x="430" y="290" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="305" font-family="Arial, sans-serif" font-size="14" fill="#333">External hazards (trees, power lines)</text>
+  
+  <!-- Section 2: Interior -->
+  <rect x="120" y="330" width="560" height="30" fill="#3498db" rx="5" ry="5"/>
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">INTERIOR INSPECTION</text>
+  
+  <!-- Checklist Items - Interior -->
+  <rect x="130" y="370" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="385" font-family="Arial, sans-serif" font-size="14" fill="#333">Damp and mold (walls, ceilings, musty smell)</text>
+  
+  <rect x="130" y="400" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="415" font-family="Arial, sans-serif" font-size="14" fill="#333">Structural issues (cracks, sloping floors)</text>
+  
+  <rect x="130" y="430" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="445" font-family="Arial, sans-serif" font-size="14" fill="#333">Electrical system (fuse box, wiring condition)</text>
+  
+  <rect x="130" y="460" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="475" font-family="Arial, sans-serif" font-size="14" fill="#333">Plumbing (water pressure, leaks, pipe types)</text>
+  
+  <rect x="130" y="490" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="505" font-family="Arial, sans-serif" font-size="14" fill="#333">Heating system (type, age, functionality)</text>
+  
+  <rect x="430" y="370" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="385" font-family="Arial, sans-serif" font-size="14" fill="#333">Room sizes and layout potential</text>
+  
+  <rect x="430" y="400" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="415" font-family="Arial, sans-serif" font-size="14" fill="#333">Insulation and energy efficiency</text>
+  
+  <rect x="430" y="430" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="445" font-family="Arial, sans-serif" font-size="14" fill="#333">Ceiling height and condition</text>
+  
+  <rect x="430" y="460" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="475" font-family="Arial, sans-serif" font-size="14" fill="#333">Fixtures and fittings condition</text>
+  
+  <rect x="430" y="490" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="505" font-family="Arial, sans-serif" font-size="14" fill="#333">Signs of pest infestation</text>
+  
+  <!-- Section 3: Documentation -->
+  <rect x="120" y="530" width="560" height="30" fill="#2ecc71" rx="5" ry="5"/>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">DOCUMENTATION AND RESEARCH</text>
+  
+  <!-- Checklist Items - Documentation -->
+  <rect x="130" y="570" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="160" y="585" font-family="Arial, sans-serif" font-size="14" fill="#333">Legal pack review (title, searches, special conditions)</text>
+  
+  <rect x="430" y="570" width="20" height="20" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="585" font-family="Arial, sans-serif" font-size="14" fill="#333">Local area research (amenities, transport, schools)</text>
+  
+  <!-- Essential Tools Icons -->
+  <rect x="120" y="520" width="20" height="0" fill="none"/>
+  
+  <!-- Camera -->
+  <rect x="140" y="520" width="24" height="16" fill="#34495e" stroke="#333" stroke-width="1"/>
+  <rect x="147" y="516" width="10" height="4" fill="#34495e" stroke="#333" stroke-width="1"/>
+  <circle cx="152" cy="528" r="4" fill="#3498db" stroke="#333" stroke-width="1"/>
+  
+  <!-- Flashlight -->
+  <rect x="180" y="520" width="8" height="16" fill="#95a5a6" stroke="#333" stroke-width="1"/>
+  <rect x="188" y="524" width="6" height="8" fill="#f1c40f" stroke="#333" stroke-width="1"/>
+  
+  <!-- Tape Measure -->
+  <rect x="210" y="526" width="20" height="8" fill="#e74c3c" stroke="#333" stroke-width="1"/>
+  <circle cx="215" cy="530" r="3" fill="#333"/>
+  <circle cx="225" cy="530" r="3" fill="#333"/>
+  
+  <!-- Moisture Meter -->
+  <rect x="245" y="520" width="10" height="16" fill="#3498db" stroke="#333" stroke-width="1"/>
+  <rect x="245" y="520" width="10" height="4" fill="#e74c3c" stroke="#333" stroke-width="1"/>
+  
+  <!-- Notepad -->
+  <rect x="270" y="520" width="14" height="16" fill="#ecf0f1" stroke="#333" stroke-width="1"/>
+  <line x1="274" y1="524" x2="280" y2="524" stroke="#333" stroke-width="1"/>
+  <line x1="274" y1="528" x2="280" y2="528" stroke="#333" stroke-width="1"/>
+  <line x1="274" y1="532" x2="280" y2="532" stroke="#333" stroke-width="1"/>
+  
+  <text x="210" y="510" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">Essential Tools for Viewing</text>
+</svg>
