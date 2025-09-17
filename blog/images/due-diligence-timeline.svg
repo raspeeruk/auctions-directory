@@ -1,0 +1,87 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- Timeline Background -->
+  <rect x="100" y="50" width="600" height="350" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b">Due Diligence Timeline for Auction Properties</text>
+  
+  <!-- Timeline Line -->
+  <line x1="150" y1="200" x2="650" y2="200" stroke="#94a3b8" stroke-width="4"/>
+  
+  <!-- Timeline Points -->
+  <circle cx="200" cy="200" r="15" fill="#2563eb"/>
+  <circle cx="300" cy="200" r="15" fill="#2563eb"/>
+  <circle cx="400" cy="200" r="15" fill="#2563eb"/>
+  <circle cx="500" cy="200" r="15" fill="#2563eb"/>
+  <circle cx="600" cy="200" r="15" fill="#f59e0b"/>
+  
+  <!-- Timeline Labels -->
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">3 Weeks Before</text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">2 Weeks Before</text>
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">1 Week Before</text>
+  <text x="500" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">48 Hours Before</text>
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#f59e0b">Auction Day</text>
+  
+  <!-- Timeline Tasks - 3 Weeks Before -->
+  <rect x="150" y="100" width="100" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Initial Research</text>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Review catalogues</text>
+  <text x="200" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Request legal packs</text>
+  <text x="200" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Schedule viewings</text>
+  <line x1="200" y1="180" x2="200" y2="185" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Timeline Tasks - 2 Weeks Before -->
+  <rect x="250" y="100" width="100" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="300" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Property Analysis</text>
+  <text x="300" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Attend viewings</text>
+  <text x="300" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Commission surveys</text>
+  <text x="300" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Research area</text>
+  <line x1="300" y1="180" x2="300" y2="185" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Timeline Tasks - 1 Week Before -->
+  <rect x="350" y="100" width="100" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Financial Review</text>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Review survey reports</text>
+  <text x="400" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Get contractor quotes</text>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Finalize financing</text>
+  <line x1="400" y1="180" x2="400" y2="185" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Timeline Tasks - 48 Hours Before -->
+  <rect x="450" y="100" width="100" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="500" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Final Preparation</text>
+  <text x="500" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Address final questions</text>
+  <text x="500" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Arrange deposit funds</text>
+  <text x="500" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Set maximum bid</text>
+  <line x1="500" y1="180" x2="500" y2="185" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Timeline Tasks - Auction Day -->
+  <rect x="550" y="100" width="100" height="80" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+  <text x="600" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Auction Day</text>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Arrive early</text>
+  <text x="600" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Stick to maximum bid</text>
+  <text x="600" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Be ready to pay deposit</text>
+  <line x1="600" y1="180" x2="600" y2="185" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Post-Auction Tasks -->
+  <rect x="350" y="270" width="300" height="80" rx="5" fill="#dcfce7" stroke="#10b981" stroke-width="1"/>
+  <text x="500" y="290" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Post-Auction (If Successful)</text>
+  <text x="500" y="310" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Instruct solicitor to proceed</text>
+  <text x="500" y="325" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Arrange buildings insurance immediately</text>
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Complete purchase within 28 days</text>
+  <line x1="500" y1="270" x2="500" y2="260" stroke="#10b981" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="600" y1="270" x2="600" y2="260" stroke="#10b981" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Pre-Auction Tasks -->
+  <rect x="150" y="270" width="150" height="80" rx="5" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+  <text x="225" y="290" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">If Issues Found</text>
+  <text x="225" y="310" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Adjust maximum bid</text>
+  <text x="225" y="325" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Consider walking away</text>
+  <text x="225" y="340" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Look for alternative properties</text>
+  <line x1="225" y1="270" x2="225" y2="260" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="300" y1="270" x2="300" y2="260" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Source -->
+  <text x="700" y="440" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#94a3b8">© Auction Insights</text>
+</svg>

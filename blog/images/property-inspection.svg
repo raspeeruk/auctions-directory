@@ -1,0 +1,75 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- House Outline -->
+  <rect x="200" y="100" width="400" height="250" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="200,100 400,25 600,100" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Door -->
+  <rect x="375" y="250" width="50" height="100" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+  <circle cx="415" cy="300" r="5" fill="#1e293b"/>
+  
+  <!-- Windows -->
+  <rect x="250" y="150" width="80" height="60" fill="#dbeafe" stroke="#64748b" stroke-width="2"/>
+  <line x1="290" y1="150" x2="290" y2="210" stroke="#64748b" stroke-width="2"/>
+  <line x1="250" y1="180" x2="330" y2="180" stroke="#64748b" stroke-width="2"/>
+  
+  <rect x="470" y="150" width="80" height="60" fill="#dbeafe" stroke="#64748b" stroke-width="2"/>
+  <line x1="510" y1="150" x2="510" y2="210" stroke="#64748b" stroke-width="2"/>
+  <line x1="470" y1="180" x2="550" y2="180" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Inspection Points with Callouts -->
+  <!-- Roof -->
+  <circle cx="400" cy="60" r="15" fill="#2563eb" opacity="0.8"/>
+  <text x="400" cy="65" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+  <rect x="430" y="40" width="150" height="40" rx="5" fill="#ffffff" stroke="#2563eb" stroke-width="1"/>
+  <text x="440" y="60" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Roof Condition</text>
+  <text x="440" y="75" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Check for missing tiles, leaks</text>
+  <line x1="415" y1="60" x2="430" y2="60" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Structure -->
+  <circle cx="180" cy="200" r="15" fill="#2563eb" opacity="0.8"/>
+  <text x="180" cy="205" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+  <rect x="20" y="180" width="150" height="40" rx="5" fill="#ffffff" stroke="#2563eb" stroke-width="1"/>
+  <text x="30" y="200" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Structural Integrity</text>
+  <text x="30" y="215" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Look for cracks, subsidence</text>
+  <line x1="165" y1="200" x2="20" y2="200" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Damp -->
+  <circle cx="290" cy="180" r="15" fill="#2563eb" opacity="0.8"/>
+  <text x="290" cy="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+  <rect x="290" y="120" width="150" height="40" rx="5" fill="#ffffff" stroke="#2563eb" stroke-width="1"/>
+  <text x="300" y="140" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Damp &amp; Mold</text>
+  <text x="300" y="155" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Check walls, ceilings, floors</text>
+  <line x1="290" y1="165" x2="290" y2="120" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Electrics -->
+  <circle cx="510" cy="180" r="15" fill="#2563eb" opacity="0.8"/>
+  <text x="510" cy="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+  <rect x="510" y="120" width="150" height="40" rx="5" fill="#ffffff" stroke="#2563eb" stroke-width="1"/>
+  <text x="520" y="140" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Electrical System</text>
+  <text x="520" y="155" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Fuse box, wiring condition</text>
+  <line x1="510" y1="165" x2="510" y2="120" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Plumbing -->
+  <circle cx="620" cy="200" r="15" fill="#2563eb" opacity="0.8"/>
+  <text x="620" cy="205" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+  <rect x="630" y="180" width="150" height="40" rx="5" fill="#ffffff" stroke="#2563eb" stroke-width="1"/>
+  <text x="640" y="200" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Plumbing &amp; Heating</text>
+  <text x="640" y="215" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Water pressure, boiler age</text>
+  <line x1="635" y1="200" x2="630" y2="200" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Foundations -->
+  <circle cx="400" cy="370" r="15" fill="#2563eb" opacity="0.8"/>
+  <text x="400" cy="375" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">6</text>
+  <rect x="430" y="350" width="150" height="40" rx="5" fill="#ffffff" stroke="#2563eb" stroke-width="1"/>
+  <text x="440" y="370" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Foundations</text>
+  <text x="440" y="385" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Check for settlement issues</text>
+  <line x1="415" y1="370" x2="430" y2="370" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b">Key Areas to Focus on During Property Inspections</text>
+  
+  <!-- Auction Insights Branding -->
+  <text x="750" y="440" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#94a3b8">© Auction Insights</text>
+</svg>

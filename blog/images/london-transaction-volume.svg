@@ -1,0 +1,79 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- Chart Background -->
+  <rect x="100" y="50" width="600" height="350" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Chart Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b">London Auction Transaction Volume by Quarter</text>
+  
+  <!-- Y-Axis -->
+  <line x1="100" y1="50" x2="100" y2="400" stroke="#94a3b8" stroke-width="2"/>
+  <text x="95" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">1,500</text>
+  <text x="95" y="135" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">1,200</text>
+  <text x="95" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">900</text>
+  <text x="95" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">600</text>
+  <text x="95" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">300</text>
+  <text x="95" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">0</text>
+  
+  <!-- X-Axis -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Quarters -->
+  <text x="150" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q1 2023</text>
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q2 2023</text>
+  <text x="250" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q3 2023</text>
+  <text x="300" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q4 2023</text>
+  <text x="350" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q1 2024</text>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q2 2024</text>
+  <text x="450" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q3 2024</text>
+  <text x="500" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q4 2024</text>
+  <text x="550" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q1 2025</text>
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q2 2025</text>
+  <text x="650" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Q3 2025</text>
+  
+  <!-- Grid Lines -->
+  <line x1="100" y1="60" x2="700" y2="60" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="135" x2="700" y2="135" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="210" x2="700" y2="210" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="285" x2="700" y2="285" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="360" x2="700" y2="360" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Bars -->
+  <rect x="135" y="210" width="30" height="190" fill="#2563eb" opacity="0.8"/>
+  <rect x="185" y="230" width="30" height="170" fill="#2563eb" opacity="0.8"/>
+  <rect x="235" y="200" width="30" height="200" fill="#2563eb" opacity="0.8"/>
+  <rect x="285" y="180" width="30" height="220" fill="#2563eb" opacity="0.8"/>
+  <rect x="335" y="170" width="30" height="230" fill="#2563eb" opacity="0.8"/>
+  <rect x="385" y="160" width="30" height="240" fill="#2563eb" opacity="0.8"/>
+  <rect x="435" y="150" width="30" height="250" fill="#2563eb" opacity="0.8"/>
+  <rect x="485" y="135" width="30" height="265" fill="#2563eb" opacity="0.8"/>
+  <rect x="535" y="120" width="30" height="280" fill="#2563eb" opacity="0.8"/>
+  <rect x="585" y="110" width="30" height="290" fill="#2563eb" opacity="0.8"/>
+  <rect x="635" y="100" width="30" height="300" fill="#2563eb" opacity="0.8"/>
+  
+  <!-- Data Labels -->
+  <text x="150" y="200" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">900</text>
+  <text x="200" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">850</text>
+  <text x="250" y="190" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">950</text>
+  <text x="300" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">1,000</text>
+  <text x="350" y="160" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">1,050</text>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">1,100</text>
+  <text x="450" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">1,150</text>
+  <text x="500" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">1,200</text>
+  <text x="550" y="110" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">1,250</text>
+  <text x="600" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">1,300</text>
+  <text x="650" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">1,350</text>
+  
+  <!-- Trend Line -->
+  <polyline points="150,210 200,230 250,200 300,180 350,170 400,160 450,150 500,135 550,120 600,110 650,100" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="5,5"/>
+  
+  <!-- Legend -->
+  <rect x="550" y="50" width="15" height="15" fill="#2563eb" opacity="0.8"/>
+  <text x="575" y="63" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Transaction Volume</text>
+  <line x1="550" y1="83" x2="565" y2="83" stroke="#f59e0b" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="575" y="86" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Trend Line</text>
+  
+  <!-- Source -->
+  <text x="700" y="440" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#94a3b8">Source: Auction Insights Analysis, 2023-2025</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="150" r="150" fill="#f1f5f9"/>
+  
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="120" fill="#e2e8f0"/>
+  
+  <!-- Head -->
+  <circle cx="150" cy="120" r="60" fill="#f8fafc"/>
+  
+  <!-- Hair -->
+  <path d="M90,120 Q150,40 210,120" fill="#0f172a"/>
+  <rect x="90" y="80" width="120" height="40" fill="#0f172a"/>
+  
+  <!-- Face Features -->
+  <!-- Eyes -->
+  <ellipse cx="125" cy="110" rx="10" ry="5" fill="#1e293b"/>
+  <ellipse cx="175" cy="110" rx="10" ry="5" fill="#1e293b"/>
+  
+  <!-- Eyebrows -->
+  <path d="M115,95 Q125,90 135,95" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <path d="M165,95 Q175,90 185,95" stroke="#1e293b" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M150,115 Q155,130 150,135 Q145,130 150,115" fill="#94a3b8"/>
+  
+  <!-- Mouth -->
+  <path d="M130,150 Q150,160 170,150" stroke="#1e293b" stroke-width="2" fill="none"/>
+  
+  <!-- Glasses -->
+  <rect x="115" y="105" width="20" height="10" rx="2" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <rect x="165" y="105" width="20" height="10" rx="2" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <line x1="135" y1="110" x2="165" y2="110" stroke="#1e293b" stroke-width="1"/>
+  
+  <!-- Neck -->
+  <rect x="135" y="180" width="30" height="20" fill="#f8fafc"/>
+  
+  <!-- Shoulders/Clothing -->
+  <path d="M90,220 Q150,240 210,220 L210,250 L90,250 Z" fill="#0369a1"/>
+  
+  <!-- Professional Accessories -->
+  <rect x="140" y="210" width="20" height="10" fill="#f8fafc"/> <!-- Collar -->
+  
+  <!-- Name Label -->
+  <rect x="75" y="260" width="150" height="25" rx="5" fill="#ffffff" opacity="0.9"/>
+  <text x="150" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Robert Chen</text>
+</svg>

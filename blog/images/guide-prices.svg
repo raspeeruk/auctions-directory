@@ -1,0 +1,20 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f0f4f8"/>
+  <rect x="50" y="50" width="700" height="350" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- House Icon -->
+  <rect x="150" y="120" width="200" height="150" fill="#e2e8f0"/>
+  <polygon points="150,120 250,50 350,120" fill="#cbd5e1"/>
+  <rect x="220" y="200" width="60" height="70" fill="#ffffff"/>
+  
+  <!-- Pound Sign -->
+  <circle cx="550" cy="150" r="80" fill="#2563eb" opacity="0.1"/>
+  <path d="M530,120 L570,120 M530,150 L570,150 M530,180 L570,180 M550,100 L550,200" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Guide Price Text -->
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">Understanding Guide Prices</text>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#64748b">What You Need to Know</text>
+  
+  <!-- Auction Insights Watermark -->
+  <text x="700" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#94a3b8">© Auction Insights</text>
+</svg>

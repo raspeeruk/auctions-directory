@@ -1,0 +1,53 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f0f4f8"/>
+  
+  <!-- Background Elements -->
+  <rect x="50" y="50" width="700" height="350" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Clipboard -->
+  <rect x="150" y="100" width="200" height="250" rx="5" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="150" y="100" width="200" height="30" rx="5" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="250" cy="115" r="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Checklist Items -->
+  <rect x="170" y="150" width="15" height="15" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <line x1="173" y1="158" x2="177" y2="162" stroke="#2563eb" stroke-width="2"/>
+  <line x1="177" y1="162" x2="182" y2="153" stroke="#2563eb" stroke-width="2"/>
+  <text x="195" y="163" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">Legal Documentation</text>
+  
+  <rect x="170" y="180" width="15" height="15" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <line x1="173" y1="188" x2="177" y2="192" stroke="#2563eb" stroke-width="2"/>
+  <line x1="177" y1="192" x2="182" y2="183" stroke="#2563eb" stroke-width="2"/>
+  <text x="195" y="193" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">Property Condition</text>
+  
+  <rect x="170" y="210" width="15" height="15" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <line x1="173" y1="218" x2="177" y2="222" stroke="#2563eb" stroke-width="2"/>
+  <line x1="177" y1="222" x2="182" y2="213" stroke="#2563eb" stroke-width="2"/>
+  <text x="195" y="223" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">Financial Analysis</text>
+  
+  <rect x="170" y="240" width="15" height="15" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="195" y="253" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">Planning Status</text>
+  
+  <rect x="170" y="270" width="15" height="15" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="195" y="283" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">Location Analysis</text>
+  
+  <rect x="170" y="300" width="15" height="15" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="195" y="313" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">Risk Assessment</text>
+  
+  <!-- Magnifying Glass -->
+  <circle cx="500" cy="200" r="80" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <line x1="560" y1="260" x2="600" y2="300" stroke="#2563eb" stroke-width="6"/>
+  <circle cx="500" cy="200" r="70" fill="none" stroke="#2563eb" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- House in Magnifying Glass -->
+  <rect x="470" y="190" width="60" height="50" fill="#cbd5e1"/>
+  <polygon points="470,190 500,160 530,190" fill="#94a3b8"/>
+  <rect x="490" y="210" width="20" height="30" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">The Ultimate Due Diligence Checklist</text>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#64748b">For Auction Properties</text>
+  
+  <!-- Auction Insights Branding -->
+  <text x="700" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#94a3b8">© Auction Insights</text>
+</svg>

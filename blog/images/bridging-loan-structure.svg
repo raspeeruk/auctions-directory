@@ -1,0 +1,77 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b">Typical Bridging Loan Structure for Auction Properties</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#94a3b8" stroke-width="4"/>
+  
+  <!-- Timeline Points -->
+  <circle cx="150" cy="200" r="15" fill="#2563eb"/>
+  <circle cx="300" cy="200" r="15" fill="#2563eb"/>
+  <circle cx="450" cy="200" r="15" fill="#2563eb"/>
+  <circle cx="600" cy="200" r="15" fill="#2563eb"/>
+  
+  <!-- Timeline Labels -->
+  <text x="150" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Auction Day</text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Completion</text>
+  <text x="450" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Renovation</text>
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Exit</text>
+  
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Day 0</text>
+  <text x="300" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Day 28</text>
+  <text x="450" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">3-6 Months</text>
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">6-12 Months</text>
+  
+  <!-- Auction Day Box -->
+  <rect x="100" y="100" width="100" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="150" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Auction Day</text>
+  <text x="150" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• 10% deposit paid</text>
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Legally committed</text>
+  <text x="150" y="175" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• 28 days to complete</text>
+  <line x1="150" y1="180" x2="150" y2="185" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Completion Box -->
+  <rect x="250" y="100" width="100" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="300" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Completion</text>
+  <text x="300" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Bridging loan drawn</text>
+  <text x="300" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• 70-75% LTV typical</text>
+  <text x="300" y="175" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Balance from cash</text>
+  <line x1="300" y1="180" x2="300" y2="185" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Renovation Box -->
+  <rect x="400" y="100" width="100" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="450" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Renovation</text>
+  <text x="450" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Property improved</text>
+  <text x="450" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Value increased</text>
+  <text x="450" y="175" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Interest accruing</text>
+  <line x1="450" y1="180" x2="450" y2="185" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Exit Box -->
+  <rect x="550" y="100" width="100" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="600" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Exit Strategy</text>
+  <text x="600" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Refinance to BTL</text>
+  <text x="600" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Sell property</text>
+  <text x="600" y="175" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">• Bridging loan repaid</text>
+  <line x1="600" y1="180" x2="600" y2="185" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Cost Structure -->
+  <rect x="100" y="280" width="600" height="120" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e293b">Typical Bridging Loan Costs</text>
+  
+  <line x1="150" y1="320" x2="650" y2="320" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#1e293b">Interest Rate:</text>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#1e293b">0.5% - 1.5% per month</text>
+  
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#1e293b">Arrangement Fee:</text>
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#1e293b">1% - 2% of loan amount</text>
+  
+  <text x="200" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#1e293b">Valuation Fee:</text>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#1e293b">£500 - £1,500 depending on property value</text>
+  
+  <!-- Source -->
+  <text x="700" y="430" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#94a3b8">© Auction Insights</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f0f4f8"/>
+  
+  <!-- London Skyline Silhouette -->
+  <path d="M0,300 L50,300 L60,280 L70,300 L80,290 L90,300 L100,270 L110,300 L120,280 L130,300 L150,250 L160,300 L180,220 L190,300 L200,280 L210,300 L220,260 L230,300 L250,200 L260,300 L280,280 L290,300 L300,250 L310,300 L330,230 L340,300 L350,280 L360,300 L380,240 L390,300 L400,220 L410,300 L420,280 L430,300 L450,250 L460,300 L470,270 L480,300 L500,200 L510,300 L520,280 L530,300 L550,240 L560,300 L580,220 L590,300 L600,280 L610,300 L630,250 L640,300 L650,270 L660,300 L680,230 L690,300 L700,280 L710,300 L730,240 L740,300 L750,260 L760,300 L780,220 L790,300 L800,300 L800,450 L0,450 Z" fill="#0f172a" opacity="0.8"/>
+  
+  <!-- Big Ben -->
+  <rect x="250" y="150" width="20" height="150" fill="#1e293b"/>
+  <polygon points="240,150 280,150 260,120" fill="#1e293b"/>
+  <rect x="255" y="160" width="10" height="10" fill="#f8fafc"/>
+  <rect x="255" y="180" width="10" height="10" fill="#f8fafc"/>
+  
+  <!-- The Shard -->
+  <polygon points="500,100 520,300 480,300" fill="#334155"/>
+  <line x1="500" y1="120" x2="515" y2="280" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="500" y1="140" x2="510" y2="280" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="500" y1="160" x2="505" y2="280" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="500" y1="120" x2="485" y2="280" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="500" y1="140" x2="490" y2="280" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="500" y1="160" x2="495" y2="280" stroke="#94a3b8" stroke-width="1"/>
+  
+  <!-- London Eye -->
+  <circle cx="150" cy="250" r="50" fill="none" stroke="#475569" stroke-width="3"/>
+  <circle cx="150" cy="250" r="45" fill="none" stroke="#475569" stroke-width="1"/>
+  <line x1="150" y1="200" x2="150" y2="210" stroke="#475569" stroke-width="3"/>
+  <line x1="150" y1="290" x2="150" y2="300" stroke="#475569" stroke-width="3"/>
+  <line x1="100" y1="250" x2="110" y2="250" stroke="#475569" stroke-width="3"/>
+  <line x1="190" y1="250" x2="200" y2="250" stroke="#475569" stroke-width="3"/>
+  
+  <!-- Gherkin -->
+  <ellipse cx="400" cy="250" rx="20" ry="50" fill="#334155"/>
+  <line x1="380" y1="250" x2="420" y2="250" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="385" y1="230" x2="415" y2="230" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="385" y1="270" x2="415" y2="270" stroke="#94a3b8" stroke-width="1"/>
+  
+  <!-- Thames River -->
+  <path d="M0,350 C100,330 200,360 300,340 C400,320 500,350 600,330 C700,310 800,340 800,340 L800,360 C700,330 600,350 500,370 C400,390 300,360 200,380 C100,400 0,370 0,370 Z" fill="#2563eb" opacity="0.3"/>
+  
+  <!-- Market Data Overlay -->
+  <rect x="50" y="50" width="300" height="150" rx="10" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Chart in Overlay -->
+  <polyline points="80,150 100,140 120,145 140,130 160,135 180,120 200,110 220,115 240,100 260,90 280,85 300,80" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <polyline points="80,150 100,145 120,148 140,140 160,142 180,135 200,130 220,132 240,125 260,120 280,118 300,115" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  
+  <!-- Chart Legend -->
+  <circle cx="80" cy="180" r="5" fill="#2563eb"/>
+  <text x="90" y="185" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Central London</text>
+  <circle cx="200" cy="180" r="5" fill="#f59e0b"/>
+  <text x="210" y="185" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Outer London</text>
+  
+  <!-- Title -->
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">London Auction Market Trends: 2025</text>
+  <text x="400" y="430" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#e2e8f0">Emerging opportunities in the capital's property auctions</text>
+  
+  <!-- Auction Insights Branding -->
+  <text x="750" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#cbd5e1">© Auction Insights</text>
+</svg>
