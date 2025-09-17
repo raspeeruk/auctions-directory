@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Auction Contract Formation</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">The moment of contract formation in auction purchases</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#adb5bd" stroke-width="3"/>
+  
+  <!-- Timeline Points -->
+  <!-- Viewing Property -->
+  <circle cx="150" cy="200" r="10" fill="#3498db"/>
+  <text x="150" y="230" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Property</text>
+  <text x="150" y="250" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Viewing</text>
+  
+  <!-- Legal Pack Review -->
+  <circle cx="250" cy="200" r="10" fill="#3498db"/>
+  <text x="250" y="230" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Legal Pack</text>
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Review</text>
+  
+  <!-- Auction Day -->
+  <circle cx="350" cy="200" r="10" fill="#3498db"/>
+  <text x="350" y="230" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Auction</text>
+  <text x="350" y="250" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Day</text>
+  
+  <!-- Hammer Falls - Contract Formation -->
+  <circle cx="450" cy="200" r="15" fill="#e74c3c"/>
+  <text x="450" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Hammer Falls</text>
+  <text x="450" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">CONTRACT FORMED</text>
+  
+  <!-- Memorandum Signing -->
+  <circle cx="550" cy="200" r="10" fill="#3498db"/>
+  <text x="550" y="230" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Memorandum</text>
+  <text x="550" y="250" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Signing</text>
+  
+  <!-- Completion -->
+  <circle cx="650" cy="200" r="10" fill="#3498db"/>
+  <text x="650" y="230" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Completion</text>
+  <text x="650" y="250" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">(20-28 days)</text>
+  
+  <!-- Hammer Illustration -->
+  <g transform="translate(450, 130)">
+    <!-- Hammer -->
+    <rect x="-10" y="-50" width="20" height="60" fill="#8b4513"/>
+    <rect x="-25" y="-65" width="50" height="25" rx="5" ry="5" fill="#8b4513"/>
+    
+    <!-- Motion Lines -->
+    <path d="M-30,-40 L-40,-50" stroke="#333" stroke-width="1"/>
+    <path d="M-25,-35 L-35,-45" stroke="#333" stroke-width="1"/>
+    <path d="M-20,-30 L-30,-40" stroke="#333" stroke-width="1"/>
+    
+    <!-- Sound Waves -->
+    <path d="M30,-50 Q40,-40 30,-30" stroke="#333" stroke-width="1" fill="none"/>
+    <path d="M35,-55 Q50,-40 35,-25" stroke="#333" stroke-width="1" fill="none"/>
+    <path d="M40,-60 Q60,-40 40,-20" stroke="#333" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Key Legal Points -->
+  <rect x="100" y="280" width="600" height="100" fill="#e9ecef" rx="5" ry="5"/>
+  
+  <text x="120" y="310" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Key Legal Points:</text>
+  
+  <text x="140" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333">• Binding contract is formed immediately when the auctioneer's hammer falls</text>
+  <text x="140" y="365" font-family="Arial, sans-serif" font-size="14" fill="#333">• No "cooling-off period" or opportunity to renegotiate terms</text>
+  
+  <text x="450" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333">• 10% deposit due immediately</text>
+  <text x="450" y="365" font-family="Arial, sans-serif" font-size="14" fill="#333">• Failure to complete can result in deposit forfeiture</text>
+  
+  <!-- Pre-Contract vs Post-Contract -->
+  <line x1="400" y1="170" x2="400" y2="270" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="250" y="160" font-family="Arial, sans-serif" font-size="14" fill="#3498db" text-anchor="middle">PRE-CONTRACT</text>
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="12" fill="#3498db" text-anchor="middle">(Can withdraw without penalty)</text>
+  
+  <text x="550" y="160" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c" text-anchor="middle">POST-CONTRACT</text>
+  <text x="550" y="180" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c" text-anchor="middle">(Legally binding obligations)</text>
+</svg>

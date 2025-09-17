@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="350" viewBox="0 0 800 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="350" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Auction Financing Timeline</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Typical timeline for securing auction property financing</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="180" x2="700" y2="180" stroke="#adb5bd" stroke-width="3"/>
+  
+  <!-- Timeline Points -->
+  <!-- Pre-Auction -->
+  <circle cx="150" cy="180" r="10" fill="#3498db"/>
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Pre-Auction</text>
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">2-4 weeks before</text>
+  
+  <!-- Auction Day -->
+  <circle cx="300" cy="180" r="10" fill="#e74c3c"/>
+  <text x="300" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Auction Day</text>
+  <text x="300" y="140" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Day 0</text>
+  
+  <!-- Post-Auction -->
+  <circle cx="450" cy="180" r="10" fill="#3498db"/>
+  <text x="450" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Post-Auction</text>
+  <text x="450" y="140" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Days 1-14</text>
+  
+  <!-- Completion -->
+  <circle cx="600" cy="180" r="10" fill="#2ecc71"/>
+  <text x="600" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Completion</text>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Days 20-28</text>
+  
+  <!-- Pre-Auction Activities -->
+  <rect x="100" y="200" width="100" height="120" fill="#ebf5fb" rx="5" ry="5" stroke="#3498db"/>
+  <text x="150" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Pre-Auction</text>
+  <text x="150" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Mortgage in principle</text>
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Bridging loan approval</text>
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Lender property check</text>
+  <text x="150" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Financing contingency</text>
+  
+  <!-- Auction Day Activities -->
+  <rect x="250" y="200" width="100" height="120" fill="#fdedec" rx="5" ry="5" stroke="#e74c3c"/>
+  <text x="300" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Auction Day</text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• 10% deposit payment</text>
+  <text x="300" y="260" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Sign memorandum</text>
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Notify lender</text>
+  <text x="300" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Insurance arranged</text>
+  
+  <!-- Post-Auction Activities -->
+  <rect x="400" y="200" width="100" height="120" fill="#ebf5fb" rx="5" ry="5" stroke="#3498db"/>
+  <text x="450" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Post-Auction</text>
+  <text x="450" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Formal mortgage app</text>
+  <text x="450" y="260" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Lender valuation</text>
+  <text x="450" y="280" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Legal work</text>
+  <text x="450" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Searches completed</text>
+  
+  <!-- Completion Activities -->
+  <rect x="550" y="200" width="100" height="120" fill="#eafaf1" rx="5" ry="5" stroke="#2ecc71"/>
+  <text x="600" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Completion</text>
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Funds transferred</text>
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Legal completion</text>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Keys released</text>
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• SDLT payment</text>
+  
+  <!-- Critical Path -->
+  <path d="M150,110 L300,110 L450,110 L600,110" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <text x="375" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c" text-anchor="middle">CRITICAL FINANCING PATH</text>
+  
+  <!-- Key Risks -->
+  <rect x="700" y="200" width="20" height="20" fill="#f39c12" rx="3" ry="3"/>
+  <text x="730" y="215" font-family="Arial, sans-serif" font-size="12" fill="#333">Key Risk Points</text>
+  
+  <!-- Risk Points -->
+  <rect x="300" y="180" width="20" height="20" fill="#f39c12" rx="3" ry="3" opacity="0.7"/>
+  <rect x="450" y="260" width="20" height="20" fill="#f39c12" rx="3" ry="3" opacity="0.7"/>
+  <rect x="580" y="240" width="20" height="20" fill="#f39c12" rx="3" ry="3" opacity="0.7"/>
+</svg>

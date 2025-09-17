@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#34495e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Legal Considerations for Auction Properties</text>
+  
+  <!-- Gavel and Sound Block -->
+  <g transform="translate(400, 200) rotate(30)">
+    <!-- Sound Block -->
+    <rect x="-60" y="40" width="120" height="40" rx="5" ry="5" fill="#8b4513"/>
+    
+    <!-- Gavel -->
+    <rect x="-15" y="-100" width="30" height="120" rx="5" ry="5" fill="#d2b48c"/>
+    <rect x="-25" y="-120" width="50" height="30" rx="5" ry="5" fill="#8b4513"/>
+  </g>
+  
+  <!-- Legal Documents -->
+  <g transform="translate(200, 250)">
+    <!-- Document Stack -->
+    <rect x="-70" y="-40" width="140" height="80" fill="#f5f5f5" stroke="#333" stroke-width="1"/>
+    <rect x="-65" y="-45" width="140" height="80" fill="#f5f5f5" stroke="#333" stroke-width="1"/>
+    <rect x="-60" y="-50" width="140" height="80" fill="#f5f5f5" stroke="#333" stroke-width="1"/>
+    
+    <!-- Document Lines -->
+    <line x1="-40" y1="-30" x2="60" y2="-30" stroke="#333" stroke-width="1"/>
+    <line x1="-40" y1="-15" x2="60" y2="-15" stroke="#333" stroke-width="1"/>
+    <line x1="-40" y1="0" x2="60" y2="0" stroke="#333" stroke-width="1"/>
+    <line x1="-40" y1="15" x2="30" y2="15" stroke="#333" stroke-width="1"/>
+    
+    <!-- Signature -->
+    <path d="M40,15 C45,10 50,20 55,15" stroke="#333" stroke-width="1" fill="none"/>
+    
+    <!-- Seal -->
+    <circle cx="70" cy="15" r="10" fill="#c0392b"/>
+    <text x="70" y="18" font-family="Arial, sans-serif" font-size="6" fill="white" text-anchor="middle">SEAL</text>
+  </g>
+  
+  <!-- Property Outline -->
+  <g transform="translate(600, 220)">
+    <!-- House -->
+    <path d="M-80,-60 L0,-100 L80,-60 L80,40 L-80,40 Z" fill="#3498db" fill-opacity="0.2" stroke="#3498db" stroke-width="2"/>
+    
+    <!-- Door -->
+    <rect x="-20" y="0" width="40" height="40" fill="#3498db" fill-opacity="0.3"/>
+    
+    <!-- Windows -->
+    <rect x="-60" y="-30" width="30" height="30" fill="#3498db" fill-opacity="0.3"/>
+    <rect x="30" y="-30" width="30" height="30" fill="#3498db" fill-opacity="0.3"/>
+    
+    <!-- Magnifying Glass -->
+    <circle cx="30" cy="-15" r="40" fill="none" stroke="#e74c3c" stroke-width="3"/>
+    <line x1="60" y1="15" x2="80" y2="35" stroke="#e74c3c" stroke-width="3"/>
+  </g>
+  
+  <!-- Legal Icons -->
+  <!-- Scales of Justice -->
+  <g transform="translate(150, 150)">
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#f1c40f" stroke-width="3"/>
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#f1c40f" stroke-width="3"/>
+    
+    <!-- Left Scale -->
+    <line x1="-40" y1="0" x2="-40" y2="20" stroke="#f1c40f" stroke-width="2"/>
+    <circle cx="-40" cy="30" r="15" fill="#f1c40f" fill-opacity="0.5" stroke="#f1c40f" stroke-width="2"/>
+    
+    <!-- Right Scale -->
+    <line x1="40" y1="0" x2="40" y2="20" stroke="#f1c40f" stroke-width="2"/>
+    <circle cx="40" cy="30" r="15" fill="#f1c40f" fill-opacity="0.5" stroke="#f1c40f" stroke-width="2"/>
+  </g>
+  
+  <!-- Paragraph Symbol -->
+  <g transform="translate(650, 120)">
+    <path d="M0,0 C-20,0 -30,15 -30,30 C-30,45 -20,60 0,60 L0,0" fill="none" stroke="#f1c40f" stroke-width="3"/>
+    <path d="M15,0 C-5,0 -15,15 -15,30 C-15,45 -5,60 15,60 L15,0" fill="none" stroke="#f1c40f" stroke-width="3"/>
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#f1c40f" stroke-width="3"/>
+  </g>
+  
+  <!-- Contract with Stamp -->
+  <g transform="translate(400, 350)">
+    <rect x="-100" y="-40" width="200" height="80" fill="#f5f5f5" stroke="#333" stroke-width="1"/>
+    
+    <!-- Contract Text -->
+    <line x1="-80" y1="-25" x2="80" y2="-25" stroke="#333" stroke-width="1"/>
+    <line x1="-80" y1="-10" x2="80" y2="-10" stroke="#333" stroke-width="1"/>
+    <line x1="-80" y1="5" x2="80" y2="5" stroke="#333" stroke-width="1"/>
+    <line x1="-80" y1="20" x2="0" y2="20" stroke="#333" stroke-width="1"/>
+    
+    <!-- Stamp -->
+    <rect x="30" y="10" width="50" height="25" rx="2" ry="2" fill="#e74c3c" fill-opacity="0.8"/>
+    <text x="55" y="25" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">APPROVED</text>
+    
+    <!-- Signature -->
+    <path d="M-60,20 C-50,10 -40,30 -30,20" stroke="#333" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Key Points -->
+  <g transform="translate(100, 380)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Key Legal Considerations:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="white">• Binding contracts upon hammer fall</text>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" fill="white">• Title and property searches</text>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="12" fill="white">• Special conditions of sale</text>
+  </g>
+  
+  <g transform="translate(500, 380)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Legal Protections:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="white">• Pre-auction due diligence</text>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" fill="white">• Legal pack review</text>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="12" fill="white">• Professional legal advice</text>
+  </g>
+</svg>

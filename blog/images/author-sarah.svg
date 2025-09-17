@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="75" cy="75" r="75" fill="#f0f0f0"/>
+  
+  <!-- Hair -->
+  <path d="M75,30 C45,30 40,65 40,85 C40,105 55,115 75,115 C95,115 110,105 110,85 C110,65 105,30 75,30 Z" fill="#8b4513"/>
+  
+  <!-- Face -->
+  <ellipse cx="75" cy="75" rx="30" ry="35" fill="#f5d0a9"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="65" cy="70" rx="5" ry="3" fill="#36454F"/>
+  <ellipse cx="85" cy="70" rx="5" ry="3" fill="#36454F"/>
+  
+  <!-- Eyebrows -->
+  <path d="M60,63 Q65,60 70,63" fill="none" stroke="#8b4513" stroke-width="2"/>
+  <path d="M80,63 Q85,60 90,63" fill="none" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <path d="M75,75 Q77,80 75,85" fill="none" stroke="#f5d0a9" stroke-width="2"/>
+  
+  <!-- Mouth -->
+  <path d="M65,90 Q75,95 85,90" fill="none" stroke="#cd5c5c" stroke-width="2"/>
+  
+  <!-- Earrings -->
+  <circle cx="45" cy="75" r="3" fill="#ffd700"/>
+  <circle cx="105" cy="75" r="3" fill="#ffd700"/>
+  
+  <!-- Neck -->
+  <path d="M65,110 L65,120 L85,120 L85,110" fill="#f5d0a9"/>
+  
+  <!-- Shoulders/Clothing -->
+  <path d="M40,120 C50,115 60,115 75,115 C90,115 100,115 110,120 L110,150 L40,150 Z" fill="#9b59b6"/>
+  
+  <!-- Hair Details -->
+  <path d="M60,40 C65,35 70,35 75,40 C80,45 85,45 90,40" fill="none" stroke="#8b4513" stroke-width="3"/>
+  <path d="M50,60 C55,55 60,55 65,60" fill="none" stroke="#8b4513" stroke-width="2"/>
+  <path d="M85,60 C90,55 95,55 100,60" fill="none" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Necklace -->
+  <path d="M65,115 Q75,120 85,115" fill="none" stroke="#ffd700" stroke-width="2"/>
+  <circle cx="75" cy="118" r="2" fill="#ffd700"/>
+  
+  <!-- Glasses -->
+  <rect x="55" y="65" width="20" height="12" rx="5" ry="5" fill="none" stroke="#36454F" stroke-width="1.5"/>
+  <rect x="75" y="65" width="20" height="12" rx="5" ry="5" fill="none" stroke="#36454F" stroke-width="1.5"/>
+  <path d="M75,71 L75,71" stroke="#36454F" stroke-width="1.5"/>
+  
+  <!-- Blush -->
+  <circle cx="60" cy="85" r="5" fill="#E6B0AA" opacity="0.3"/>
+  <circle cx="90" cy="85" r="5" fill="#E6B0AA" opacity="0.3"/>
+</svg>

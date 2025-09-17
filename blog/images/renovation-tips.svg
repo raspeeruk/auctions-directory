@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#34495e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Auction Property Renovation</text>
+  <text x="400" y="85" font-family="Arial, sans-serif" font-size="20" fill="#ecf0f1" text-anchor="middle">Expert Tips for Maximum ROI</text>
+  
+  <!-- House Transformation Illustration -->
+  <!-- Before House (Left Side) -->
+  <g transform="translate(200, 220)">
+    <!-- House Structure -->
+    <rect x="-80" y="-70" width="160" height="140" fill="#95a5a6"/>
+    
+    <!-- Roof -->
+    <polygon points="-90,-70 0,-120 90,-70" fill="#7f8c8d"/>
+    
+    <!-- Windows (Old/Broken) -->
+    <rect x="-50" y="-40" width="30" height="30" fill="#7f8c8d"/>
+    <line x1="-50" y1="-25" x2="-20" y2="-25" stroke="#34495e" stroke-width="2"/>
+    <line x1="-35" y1="-40" x2="-35" y2="-10" stroke="#34495e" stroke-width="2"/>
+    
+    <rect x="20" y="-40" width="30" height="30" fill="#7f8c8d"/>
+    <line x1="20" y1="-25" x2="50" y2="-25" stroke="#34495e" stroke-width="2"/>
+    <line x1="35" y1="-40" x2="35" y2="-10" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Door (Old) -->
+    <rect x="-15" y="20" width="30" height="50" fill="#7f8c8d"/>
+    
+    <!-- "Before" Label -->
+    <rect x="-40" y="80" width="80" height="25" rx="5" ry="5" fill="#e74c3c"/>
+    <text x="0" y="97" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">BEFORE</text>
+  </g>
+  
+  <!-- After House (Right Side) -->
+  <g transform="translate(600, 220)">
+    <!-- House Structure -->
+    <rect x="-80" y="-70" width="160" height="140" fill="#ecf0f1"/>
+    
+    <!-- Roof -->
+    <polygon points="-90,-70 0,-120 90,-70" fill="#e74c3c"/>
+    
+    <!-- Windows (New) -->
+    <rect x="-50" y="-40" width="30" height="30" fill="#3498db"/>
+    <line x1="-50" y1="-25" x2="-20" y2="-25" stroke="white" stroke-width="2"/>
+    <line x1="-35" y1="-40" x2="-35" y2="-10" stroke="white" stroke-width="2"/>
+    
+    <rect x="20" y="-40" width="30" height="30" fill="#3498db"/>
+    <line x1="20" y1="-25" x2="50" y2="-25" stroke="white" stroke-width="2"/>
+    <line x1="35" y1="-40" x2="35" y2="-10" stroke="white" stroke-width="2"/>
+    
+    <!-- Door (New) -->
+    <rect x="-15" y="20" width="30" height="50" fill="#2980b9"/>
+    <circle cx="5" cy="45" r="3" fill="#f1c40f"/>
+    
+    <!-- Landscaping -->
+    <rect x="-80" y="70" width="160" height="10" fill="#27ae60"/>
+    <circle cx="-60" cy="65" r="5" fill="#27ae60"/>
+    <circle cx="-40" cy="65" r="5" fill="#27ae60"/>
+    <circle cx="40" cy="65" r="5" fill="#27ae60"/>
+    <circle cx="60" cy="65" r="5" fill="#27ae60"/>
+    
+    <!-- "After" Label -->
+    <rect x="-40" y="80" width="80" height="25" rx="5" ry="5" fill="#2ecc71"/>
+    <text x="0" y="97" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">AFTER</text>
+  </g>
+  
+  <!-- Transformation Arrow -->
+  <g transform="translate(400, 220)">
+    <line x1="-120" y1="0" x2="120" y2="0" stroke="#f1c40f" stroke-width="3"/>
+    <polygon points="120,0 110,-10 110,10" fill="#f1c40f"/>
+    <circle cx="0" cy="0" r="30" fill="#f1c40f"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">ROI</text>
+  </g>
+  
+  <!-- Renovation Elements -->
+  <!-- Tools -->
+  <g transform="translate(150, 350)">
+    <circle cx="0" cy="0" r="30" fill="#3498db" opacity="0.8"/>
+    
+    <!-- Hammer -->
+    <rect x="-5" y="-20" width="10" height="25" fill="#ecf0f1"/>
+    <rect x="-12" y="-25" width="24" height="10" fill="#ecf0f1"/>
+    
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Planning</text>
+  </g>
+  
+  <!-- Budget -->
+  <g transform="translate(300, 350)">
+    <circle cx="0" cy="0" r="30" fill="#e74c3c" opacity="0.8"/>
+    
+    <!-- Dollar Sign -->
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#ecf0f1" text-anchor="middle">$</text>
+    
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Budgeting</text>
+  </g>
+  
+  <!-- Value Add -->
+  <g transform="translate(450, 350)">
+    <circle cx="0" cy="0" r="30" fill="#2ecc71" opacity="0.8"/>
+    
+    <!-- Up Arrow -->
+    <polygon points="0,-15 15,5 5,5 5,15 -5,15 -5,5 -15,5" fill="#ecf0f1"/>
+    
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Value-Add</text>
+  </g>
+  
+  <!-- Project Management -->
+  <g transform="translate(600, 350)">
+    <circle cx="0" cy="0" r="30" fill="#9b59b6" opacity="0.8"/>
+    
+    <!-- Clipboard -->
+    <rect x="-15" y="-20" width="30" height="40" rx="2" ry="2" fill="#ecf0f1"/>
+    <rect x="-10" y="-15" width="20" height="5" fill="#9b59b6"/>
+    <rect x="-10" y="-5" width="20" height="5" fill="#9b59b6"/>
+    <rect x="-10" y="5" width="20" height="5" fill="#9b59b6"/>
+    <rect x="-10" y="15" width="10" height="5" fill="#9b59b6"/>
+    
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Execution</text>
+  </g>
+  
+  <!-- Bottom Banner -->
+  <rect x="0" y="410" width="800" height="40" fill="#e74c3c" opacity="0.9"/>
+  <text x="400" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Auction Insights: Strategic Approaches to Renovation Success</text>
+</svg>

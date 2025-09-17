@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Success Rates for Legal Recourse</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Success rates for different types of legal claims after auction purchases</text>
+  
+  <!-- Chart Area -->
+  <rect x="100" y="100" width="600" height="220" fill="white" stroke="#dee2e6"/>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="100" x2="100" y2="320" stroke="#adb5bd" stroke-width="1"/>
+  <text x="95" y="100" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">100%</text>
+  <text x="95" y="144" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">80%</text>
+  <text x="95" y="188" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">60%</text>
+  <text x="95" y="232" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">40%</text>
+  <text x="95" y="276" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">20%</text>
+  <text x="95" y="320" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">0%</text>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="320" x2="700" y2="320" stroke="#adb5bd" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="144" x2="700" y2="144" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="188" x2="700" y2="188" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="232" x2="700" y2="232" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="276" x2="700" y2="276" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Fraud -->
+  <rect x="150" y="144" width="80" height="176" fill="#e74c3c" rx="3" ry="3"/>
+  <text x="190" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Fraud</text>
+  <text x="190" y="139" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">80%</text>
+  
+  <!-- Deliberate Misrepresentation -->
+  <rect x="270" y="188" width="80" height="132" fill="#e74c3c" rx="3" ry="3"/>
+  <text x="310" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Deliberate</text>
+  <text x="310" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Misrepresentation</text>
+  <text x="310" y="183" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">60%</text>
+  
+  <!-- Negligent Misrepresentation -->
+  <rect x="390" y="254" width="80" height="66" fill="#f39c12" rx="3" ry="3"/>
+  <text x="430" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Negligent</text>
+  <text x="430" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Misrepresentation</text>
+  <text x="430" y="249" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">30%</text>
+  
+  <!-- Innocent Misrepresentation -->
+  <rect x="510" y="287" width="80" height="33" fill="#f39c12" rx="3" ry="3"/>
+  <text x="550" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Innocent</text>
+  <text x="550" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Misrepresentation</text>
+  <text x="550" y="282" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">15%</text>
+  
+  <!-- Non-Disclosure -->
+  <rect x="630" y="298" width="80" height="22" fill="#f39c12" rx="3" ry="3"/>
+  <text x="670" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Non-Disclosure</text>
+  <text x="670" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">of Defects</text>
+  <text x="670" y="293" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">10%</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="120" width="140" height="70" fill="white" rx="5" ry="5" stroke="#dee2e6"/>
+  <text x="620" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Success Likelihood</text>
+  
+  <rect x="570" y="155" width="15" height="15" fill="#e74c3c" rx="2" ry="2"/>
+  <text x="595" y="167" font-family="Arial, sans-serif" font-size="12" fill="#333">High (>50%)</text>
+  
+  <rect x="570" y="175" width="15" height="15" fill="#f39c12" rx="2" ry="2"/>
+  <text x="595" y="187" font-family="Arial, sans-serif" font-size="12" fill="#333">Low (<50%)</text>
+  
+  <!-- Annotations -->
+  <line x1="190" y1="120" x2="250" y2="120" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="300" y="120" font-family="Arial, sans-serif" font-size="12" fill="#333">Fraud cases have the highest</text>
+  <text x="300" y="135" font-family="Arial, sans-serif" font-size="12" fill="#333">success rate but are rare</text>
+  
+  <line x1="550" y1="280" x2="500" y2="250" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="450" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333">Most auction conditions limit</text>
+  <text x="450" y="255" font-family="Arial, sans-serif" font-size="12" fill="#333">liability for innocent misrepresentation</text>
+  
+  <!-- Key Insight -->
+  <rect x="100" y="380" width="600" height="20" fill="none"/>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">The principle of "caveat emptor" (buyer beware) significantly limits post-auction legal recourse</text>
+</svg>

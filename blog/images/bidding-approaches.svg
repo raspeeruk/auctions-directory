@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Strategic Bidding Approaches</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Comparison of different bidding strategies and their effectiveness</text>
+  
+  <!-- Strategy Cards -->
+  <!-- Early Aggression Strategy -->
+  <g transform="translate(150, 200)">
+    <rect x="-100" y="-100" width="200" height="200" rx="10" ry="10" fill="white" stroke="#e74c3c" stroke-width="3"/>
+    <text x="0" y="-70" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c" text-anchor="middle">Early Aggression</text>
+    
+    <!-- Strategy Icon -->
+    <circle cx="0" cy="-30" r="20" fill="#e74c3c" opacity="0.2"/>
+    <path d="M-10,-40 L0,-20 L10,-40 L0,-50 Z" fill="#e74c3c"/>
+    
+    <!-- Effectiveness Meter -->
+    <text x="-80" y="0" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">Effectiveness:</text>
+    <rect x="-80" y="10" width="160" height="15" rx="7.5" ry="7.5" fill="#f5f5f5" stroke="#dee2e6"/>
+    <rect x="-80" y="10" width="128" height="15" rx="7.5" ry="7.5" fill="#e74c3c"/>
+    <text x="80" y="22" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">80%</text>
+    
+    <!-- Best Against -->
+    <text x="-80" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">Best Against:</text>
+    <text x="-80" y="60" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">• Inexperienced bidders</text>
+    <text x="-80" y="80" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">• Hesitant competitors</text>
+  </g>
+  
+  <!-- Wait-and-See Strategy -->
+  <g transform="translate(400, 200)">
+    <rect x="-100" y="-100" width="200" height="200" rx="10" ry="10" fill="white" stroke="#3498db" stroke-width="3"/>
+    <text x="0" y="-70" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db" text-anchor="middle">Wait-and-See</text>
+    
+    <!-- Strategy Icon -->
+    <circle cx="0" cy="-30" r="20" fill="#3498db" opacity="0.2"/>
+    <circle cx="0" cy="-30" r="15" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M0,-40 L0,-30 L5,-25" stroke="#3498db" stroke-width="2" fill="none"/>
+    
+    <!-- Effectiveness Meter -->
+    <text x="-80" y="0" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">Effectiveness:</text>
+    <rect x="-80" y="10" width="160" height="15" rx="7.5" ry="7.5" fill="#f5f5f5" stroke="#dee2e6"/>
+    <rect x="-80" y="10" width="112" height="15" rx="7.5" ry="7.5" fill="#3498db"/>
+    <text x="80" y="22" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">70%</text>
+    
+    <!-- Best Against -->
+    <text x="-80" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">Best Against:</text>
+    <text x="-80" y="60" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">• Emotional bidders</text>
+    <text x="-80" y="80" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">• Uncertain market</text>
+  </g>
+  
+  <!-- Increment Control Strategy -->
+  <g transform="translate(650, 200)">
+    <rect x="-100" y="-100" width="200" height="200" rx="10" ry="10" fill="white" stroke="#2ecc71" stroke-width="3"/>
+    <text x="0" y="-70" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2ecc71" text-anchor="middle">Increment Control</text>
+    
+    <!-- Strategy Icon -->
+    <circle cx="0" cy="-30" r="20" fill="#2ecc71" opacity="0.2"/>
+    <line x1="-15" y1="-40" x2="15" y2="-40" stroke="#2ecc71" stroke-width="2"/>
+    <line x1="-10" y1="-30" x2="10" y2="-30" stroke="#2ecc71" stroke-width="2"/>
+    <line x1="-5" y1="-20" x2="5" y2="-20" stroke="#2ecc71" stroke-width="2"/>
+    
+    <!-- Effectiveness Meter -->
+    <text x="-80" y="0" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">Effectiveness:</text>
+    <rect x="-80" y="10" width="160" height="15" rx="7.5" ry="7.5" fill="#f5f5f5" stroke="#dee2e6"/>
+    <rect x="-80" y="10" width="144" height="15" rx="7.5" ry="7.5" fill="#2ecc71"/>
+    <text x="80" y="22" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">90%</text>
+    
+    <!-- Best Against -->
+    <text x="-80" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">Best Against:</text>
+    <text x="-80" y="60" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">• Experienced bidders</text>
+    <text x="-80" y="80" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">• Flexible auctioneers</text>
+  </g>
+  
+  <!-- Proxy Strategy -->
+  <g transform="translate(400, 350)">
+    <rect x="-100" y="-50" width="200" height="100" rx="10" ry="10" fill="white" stroke="#9b59b6" stroke-width="3"/>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#9b59b6" text-anchor="middle">Proxy Strategy</text>
+    
+    <!-- Strategy Icon -->
+    <circle cx="-60" cy="0" r="15" fill="#9b59b6" opacity="0.2"/>
+    <circle cx="-60" cy="-10" r="8" fill="#9b59b6"/>
+    <rect x="-70" y="0" width="20" height="15" rx="2" ry="2" fill="#9b59b6"/>
+    
+    <!-- Effectiveness Meter -->
+    <text x="-40" y="-5" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">Effectiveness:</text>
+    <rect x="-40" y="5" width="120" height="15" rx="7.5" ry="7.5" fill="#f5f5f5" stroke="#dee2e6"/>
+    <rect x="-40" y="5" width="96" height="15" rx="7.5" ry="7.5" fill="#9b59b6"/>
+    <text x="80" y="17" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">80%</text>
+  </g>
+  
+  <!-- Strategy Comparison Chart -->
+  <g transform="translate(400, 450)">
+    <!-- Chart Title -->
+    <text x="0" y="-430" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Strategy Comparison</text>
+    
+    <!-- Chart Legend -->
+    <rect x="250" y="-430" width="15" height="15" fill="#e74c3c"/>
+    <text x="270" y="-417" font-family="Arial, sans-serif" font-size="12" fill="#333">Early Aggression</text>
+    
+    <rect x="250" y="-410" width="15" height="15" fill="#3498db"/>
+    <text x="270" y="-397" font-family="Arial, sans-serif" font-size="12" fill="#333">Wait-and-See</text>
+    
+    <rect x="250" y="-390" width="15" height="15" fill="#2ecc71"/>
+    <text x="270" y="-377" font-family="Arial, sans-serif" font-size="12" fill="#333">Increment Control</text>
+    
+    <rect x="250" y="-370" width="15" height="15" fill="#9b59b6"/>
+    <text x="270" y="-357" font-family="Arial, sans-serif" font-size="12" fill="#333">Proxy</text>
+  </g>
+  
+  <!-- Key Insights -->
+  <rect x="100" y="400" width="600" height="40" fill="#e9ecef" rx="5" ry="5"/>
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">The Increment Control strategy is most effective but requires experience and confidence to execute properly</text>
+</svg>

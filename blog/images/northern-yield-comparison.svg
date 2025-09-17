@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Northern Powerhouse Yield Comparison</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Yield comparison across Northern Powerhouse cities by property type (2025)</text>
+  
+  <!-- Chart Area -->
+  <rect x="100" y="100" width="600" height="250" fill="white" stroke="#dee2e6"/>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="100" x2="100" y2="350" stroke="#adb5bd" stroke-width="1"/>
+  <text x="95" y="100" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">14%</text>
+  <text x="95" y="137.5" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">12%</text>
+  <text x="95" y="175" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">10%</text>
+  <text x="95" y="212.5" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">8%</text>
+  <text x="95" y="250" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">6%</text>
+  <text x="95" y="287.5" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">4%</text>
+  <text x="95" y="325" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">2%</text>
+  <text x="95" y="350" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">0%</text>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#adb5bd" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="137.5" x2="700" y2="137.5" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="175" x2="700" y2="175" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="212.5" x2="700" y2="212.5" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="287.5" x2="700" y2="287.5" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="325" x2="700" y2="325" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Manchester -->
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Manchester</text>
+  
+  <!-- Residential -->
+  <rect x="150" y="250" width="25" height="100" fill="#3498db" rx="2" ry="2"/>
+  <text x="162.5" y="245" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">6.5%</text>
+  
+  <!-- Commercial -->
+  <rect x="180" y="237.5" width="25" height="112.5" fill="#e74c3c" rx="2" ry="2"/>
+  <text x="192.5" y="232.5" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">7.5%</text>
+  
+  <!-- HMO -->
+  <rect x="210" y="200" width="25" height="150" fill="#2ecc71" rx="2" ry="2"/>
+  <text x="222.5" y="195" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">10.0%</text>
+  
+  <!-- Office -->
+  <rect x="240" y="262.5" width="25" height="87.5" fill="#9b59b6" rx="2" ry="2"/>
+  <text x="252.5" y="257.5" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">5.8%</text>
+  
+  <!-- Leeds -->
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Leeds</text>
+  
+  <!-- Residential -->
+  <rect x="350" y="237.5" width="25" height="112.5" fill="#3498db" rx="2" ry="2"/>
+  <text x="362.5" y="232.5" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">7.5%</text>
+  
+  <!-- Commercial -->
+  <rect x="380" y="225" width="25" height="125" fill="#e74c3c" rx="2" ry="2"/>
+  <text x="392.5" y="220" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">8.3%</text>
+  
+  <!-- HMO -->
+  <rect x="410" y="187.5" width="25" height="162.5" fill="#2ecc71" rx="2" ry="2"/>
+  <text x="422.5" y="182.5" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">10.8%</text>
+  
+  <!-- Office -->
+  <rect x="440" y="250" width="25" height="100" fill="#9b59b6" rx="2" ry="2"/>
+  <text x="452.5" y="245" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">6.7%</text>
+  
+  <!-- Liverpool -->
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Liverpool</text>
+  
+  <!-- Residential -->
+  <rect x="550" y="225" width="25" height="125" fill="#3498db" rx="2" ry="2"/>
+  <text x="562.5" y="220" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">8.3%</text>
+  
+  <!-- Commercial -->
+  <rect x="580" y="212.5" width="25" height="137.5" fill="#e74c3c" rx="2" ry="2"/>
+  <text x="592.5" y="207.5" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">9.2%</text>
+  
+  <!-- HMO -->
+  <rect x="610" y="162.5" width="25" height="187.5" fill="#2ecc71" rx="2" ry="2"/>
+  <text x="622.5" y="157.5" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">12.5%</text>
+  
+  <!-- Office -->
+  <rect x="640" y="237.5" width="25" height="112.5" fill="#9b59b6" rx="2" ry="2"/>
+  <text x="652.5" y="232.5" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">7.5%</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="120" width="140" height="100" fill="white" rx="5" ry="5" stroke="#dee2e6"/>
+  <text x="620" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Property Type</text>
+  
+  <rect x="570" y="155" width="15" height="15" fill="#3498db" rx="2" ry="2"/>
+  <text x="595" y="167" font-family="Arial, sans-serif" font-size="12" fill="#333">Residential</text>
+  
+  <rect x="570" y="175" width="15" height="15" fill="#e74c3c" rx="2" ry="2"/>
+  <text x="595" y="187" font-family="Arial, sans-serif" font-size="12" fill="#333">Commercial</text>
+  
+  <rect x="570" y="195" width="15" height="15" fill="#2ecc71" rx="2" ry="2"/>
+  <text x="595" y="207" font-family="Arial, sans-serif" font-size="12" fill="#333">HMO</text>
+  
+  <rect x="570" y="215" width="15" height="15" fill="#9b59b6" rx="2" ry="2"/>
+  <text x="595" y="227" font-family="Arial, sans-serif" font-size="12" fill="#333">Office</text>
+  
+  <!-- Key Insights -->
+  <rect x="100" y="390" width="600" height="50" fill="#e9ecef" rx="5" ry="5"/>
+  <text x="120" y="410" font-family="Arial, sans-serif" font-size="12" fill="#333">Key Insight: Liverpool consistently offers the highest yields across all property types, with HMOs delivering</text>
+  <text x="120" y="430" font-family="Arial, sans-serif" font-size="12" fill="#333">exceptional returns of up to 12.5% - significantly outperforming both Manchester and Leeds.</text>
+  
+  <!-- Source -->
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Source: Auction Insights Analysis of Northern Powerhouse Auction Data (2025)</text>
+</svg>

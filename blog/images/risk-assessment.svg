@@ -1,0 +1,74 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b">Risk Assessment Matrix: Commercial vs Residential</text>
+  
+  <!-- Matrix Background -->
+  <rect x="150" y="70" width="500" height="300" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Matrix Grid -->
+  <line x1="150" y1="170" x2="650" y2="170" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="150" y1="270" x2="650" y2="270" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="250" y1="70" x2="250" y2="370" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="350" y1="70" x2="350" y2="370" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="450" y1="70" x2="450" y2="370" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="550" y1="70" x2="550" y2="370" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- Row Headers -->
+  <text x="140" y="120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#1e293b">High Risk</text>
+  <text x="140" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#1e293b">Medium Risk</text>
+  <text x="140" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#1e293b">Low Risk</text>
+  
+  <!-- Column Headers -->
+  <text x="200" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Tenant Risk</text>
+  <text x="300" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Financing Risk</text>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Liquidity Risk</text>
+  <text x="500" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Regulatory Risk</text>
+  <text x="600" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">Management</text>
+  
+  <!-- Commercial Markers -->
+  <circle cx="200" cy="120" r="25" fill="#2563eb" opacity="0.7"/>
+  <text x="200" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">C</text>
+  
+  <circle cx="300" cy="120" r="25" fill="#2563eb" opacity="0.7"/>
+  <text x="300" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">C</text>
+  
+  <circle cx="400" cy="120" r="25" fill="#2563eb" opacity="0.7"/>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">C</text>
+  
+  <circle cx="500" cy="320" r="25" fill="#2563eb" opacity="0.7"/>
+  <text x="500" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">C</text>
+  
+  <circle cx="600" cy="220" r="25" fill="#2563eb" opacity="0.7"/>
+  <text x="600" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">C</text>
+  
+  <!-- Residential Markers -->
+  <circle cx="200" cy="220" r="25" fill="#f59e0b" opacity="0.7"/>
+  <text x="200" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">R</text>
+  
+  <circle cx="300" cy="220" r="25" fill="#f59e0b" opacity="0.7"/>
+  <text x="300" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">R</text>
+  
+  <circle cx="400" cy="220" r="25" fill="#f59e0b" opacity="0.7"/>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">R</text>
+  
+  <circle cx="500" cy="120" r="25" fill="#f59e0b" opacity="0.7"/>
+  <text x="500" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">R</text>
+  
+  <circle cx="600" cy="120" r="25" fill="#f59e0b" opacity="0.7"/>
+  <text x="600" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">R</text>
+  
+  <!-- Legend -->
+  <rect x="250" y="390" width="300" height="40" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="280" cy="410" r="15" fill="#2563eb" opacity="0.7"/>
+  <text x="280" y="415" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">C</text>
+  <text x="310" y="415" font-family="Arial, sans-serif" font-size="14" text-anchor="start" fill="#1e293b">Commercial</text>
+  
+  <circle cx="420" cy="410" r="15" fill="#f59e0b" opacity="0.7"/>
+  <text x="420" y="415" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">R</text>
+  <text x="450" y="415" font-family="Arial, sans-serif" font-size="14" text-anchor="start" fill="#1e293b">Residential</text>
+  
+  <!-- Source -->
+  <text x="700" y="440" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#94a3b8">© Auction Insights</text>
+</svg>

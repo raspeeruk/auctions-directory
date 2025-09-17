@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Common Bidding Mistakes</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Frequency and impact of common auction bidding mistakes</text>
+  
+  <!-- Chart Area -->
+  <rect x="100" y="100" width="600" height="250" fill="white" stroke="#dee2e6"/>
+  
+  <!-- X-axis (Frequency) -->
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#adb5bd" stroke-width="2"/>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Frequency</text>
+  <text x="100" y="370" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Low</text>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Medium</text>
+  <text x="700" y="370" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">High</text>
+  
+  <!-- Y-axis (Impact) -->
+  <line x1="100" y1="350" x2="100" y2="100" stroke="#adb5bd" stroke-width="2"/>
+  <text x="60" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle" transform="rotate(-90, 60, 225)">Financial Impact</text>
+  <text x="90" y="350" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">Low</text>
+  <text x="90" y="225" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">Medium</text>
+  <text x="90" y="100" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">High</text>
+  
+  <!-- Grid Lines -->
+  <line x1="100" y1="225" x2="700" y2="225" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="300" y1="100" x2="300" y2="350" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="500" y1="100" x2="500" y2="350" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Mistake Bubbles -->
+  <!-- Emotional Escalation -->
+  <circle cx="600" cy="120" r="50" fill="#e74c3c" opacity="0.7"/>
+  <text x="600" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Emotional</text>
+  <text x="600" y="135" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Escalation</text>
+  
+  <!-- Misreading the Room -->
+  <circle cx="450" cy="200" r="40" fill="#3498db" opacity="0.7"/>
+  <text x="450" y="195" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Misreading</text>
+  <text x="450" y="215" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">the Room</text>
+  
+  <!-- Telegraphing Interest -->
+  <circle cx="350" cy="280" r="35" fill="#2ecc71" opacity="0.7"/>
+  <text x="350" y="275" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Telegraphing</text>
+  <text x="350" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Interest</text>
+  
+  <!-- Bidding Pattern Predictability -->
+  <circle cx="250" cy="250" r="30" fill="#f39c12" opacity="0.7"/>
+  <text x="250" y="245" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Bidding Pattern</text>
+  <text x="250" y="260" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Predictability</text>
+  
+  <!-- Inadequate Preparation -->
+  <circle cx="550" cy="300" r="25" fill="#9b59b6" opacity="0.7"/>
+  <text x="550" y="295" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">Inadequate</text>
+  <text x="550" y="305" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">Preparation</text>
+  
+  <!-- Ignoring Body Language -->
+  <circle cx="150" cy="320" r="20" fill="#34495e" opacity="0.7"/>
+  <text x="150" y="315" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">Ignoring</text>
+  <text x="150" y="325" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">Body Language</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="120" width="140" height="180" fill="white" rx="5" ry="5" stroke="#dee2e6"/>
+  <text x="620" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Legend</text>
+  
+  <text x="620" y="165" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Bubble Size = Frequency</text>
+  
+  <circle cx="570" y="190" r="10" fill="#e74c3c" opacity="0.7"/>
+  <text x="630" y="195" font-family="Arial, sans-serif" font-size="12" fill="#333">Emotional Mistakes</text>
+  
+  <circle cx="570" y="220" r="10" fill="#3498db" opacity="0.7"/>
+  <text x="630" y="225" font-family="Arial, sans-serif" font-size="12" fill="#333">Strategic Mistakes</text>
+  
+  <circle cx="570" y="250" r="10" fill="#2ecc71" opacity="0.7"/>
+  <text x="630" y="255" font-family="Arial, sans-serif" font-size="12" fill="#333">Tactical Mistakes</text>
+  
+  <circle cx="570" y="280" r="10" fill="#f39c12" opacity="0.7"/>
+  <text x="630" y="285" font-family="Arial, sans-serif" font-size="12" fill="#333">Behavioral Mistakes</text>
+  
+  <!-- Key Insight -->
+  <rect x="100" y="400" width="600" height="40" fill="#e9ecef" rx="5" ry="5"/>
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Emotional escalation is both the most common and most costly bidding mistake</text>
+</svg>

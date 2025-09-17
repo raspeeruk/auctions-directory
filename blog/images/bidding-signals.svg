@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Effective Bidding Signals</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Effective bidding signals and their psychological impact</text>
+  
+  <!-- Bidding Signals Section -->
+  <g transform="translate(200, 200)">
+    <!-- Section Title -->
+    <text x="0" y="-100" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">Physical Signals</text>
+    
+    <!-- Paddle Raise -->
+    <g transform="translate(-60, -50)">
+      <rect x="-30" y="-40" width="60" height="80" rx="5" ry="5" fill="#f5f5f5" stroke="#dee2e6"/>
+      
+      <!-- Bidder -->
+      <circle cx="0" cy="-10" r="10" fill="#3498db"/>
+      <rect x="-5" y="0" width="10" height="20" fill="#3498db"/>
+      
+      <!-- Paddle -->
+      <rect x="5" y="-30" width="5" height="25" fill="#e74c3c"/>
+      <rect x="0" y="-35" width="15" height="10" rx="2" ry="2" fill="#e74c3c"/>
+      <text x="7.5" y="-28" font-family="Arial, sans-serif" font-size="6" fill="white" text-anchor="middle">42</text>
+      
+      <!-- Label -->
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Paddle Raise</text>
+    </g>
+    
+    <!-- Hand Signal -->
+    <g transform="translate(0, -50)">
+      <rect x="-30" y="-40" width="60" height="80" rx="5" ry="5" fill="#f5f5f5" stroke="#dee2e6"/>
+      
+      <!-- Bidder -->
+      <circle cx="0" cy="-10" r="10" fill="#3498db"/>
+      <rect x="-5" y="0" width="10" height="20" fill="#3498db"/>
+      
+      <!-- Hand -->
+      <circle cx="10" cy="-20" r="8" fill="#f5d7a1"/>
+      <rect x="7" y="-25" width="6" height="15" fill="#f5d7a1"/>
+      
+      <!-- Label -->
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Hand Signal</text>
+    </g>
+    
+    <!-- Nod -->
+    <g transform="translate(60, -50)">
+      <rect x="-30" y="-40" width="60" height="80" rx="5" ry="5" fill="#f5f5f5" stroke="#dee2e6"/>
+      
+      <!-- Bidder -->
+      <circle cx="0" cy="-10" r="10" fill="#3498db"/>
+      <rect x="-5" y="0" width="10" height="20" fill="#3498db"/>
+      
+      <!-- Nod Motion -->
+      <path d="M0,-15 Q5,-10 0,-5" stroke="#333" stroke-width="1" stroke-dasharray="2,2" fill="none"/>
+      <path d="M0,-5 Q-5,0 0,5" stroke="#333" stroke-width="1" stroke-dasharray="2,2" fill="none"/>
+      
+      <!-- Label -->
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Nod</text>
+    </g>
+    
+    <!-- Verbal Bid -->
+    <g transform="translate(-30, 50)">
+      <rect x="-30" y="-40" width="60" height="80" rx="5" ry="5" fill="#f5f5f5" stroke="#dee2e6"/>
+      
+      <!-- Bidder -->
+      <circle cx="0" cy="-10" r="10" fill="#3498db"/>
+      <rect x="-5" y="0" width="10" height="20" fill="#3498db"/>
+      
+      <!-- Speech Bubble -->
+      <path d="M10,-20 L25,-15 L20,-25 Z" fill="#f5f5f5" stroke="#333" stroke-width="1"/>
+      <circle cx="15" cy="-30" r="10" fill="#f5f5f5" stroke="#333" stroke-width="1"/>
+      <text x="15" y="-27" font-family="Arial, sans-serif" font-size="8" fill="#333" text-anchor="middle">Yes</text>
+      
+      <!-- Label -->
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Verbal Bid</text>
+    </g>
+    
+    <!-- Eye Contact -->
+    <g transform="translate(30, 50)">
+      <rect x="-30" y="-40" width="60" height="80" rx="5" ry="5" fill="#f5f5f5" stroke="#dee2e6"/>
+      
+      <!-- Bidder -->
+      <circle cx="0" cy="-10" r="10" fill="#3498db"/>
+      <rect x="-5" y="0" width="10" height="20" fill="#3498db"/>
+      
+      <!-- Eye Contact Line -->
+      <line x1="5" y1="-12" x2="25" y2="-25" stroke="#333" stroke-width="1" stroke-dasharray="2,2"/>
+      <circle cx="30" cy="-30" r="8" fill="#f5f5f5" stroke="#333" stroke-width="1"/>
+      <circle cx="30" cy="-30" r="3" fill="#333"/>
+      
+      <!-- Label -->
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Eye Contact</text>
+    </g>
+  </g>
+  
+  <!-- Psychological Impact Section -->
+  <g transform="translate(600, 200)">
+    <!-- Section Title -->
+    <text x="0" y="-100" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">Psychological Impact</text>
+    
+    <!-- Impact Cards -->
+    <rect x="-100" y="-70" width="200" height="40" rx="5" ry="5" fill="#e74c3c" opacity="0.8"/>
+    <text x="0" y="-45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Confidence Projection</text>
+    
+    <rect x="-100" y="-20" width="200" height="40" rx="5" ry="5" fill="#3498db" opacity="0.8"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Decisiveness Signal</text>
+    
+    <rect x="-100" y="30" width="200" height="40" rx="5" ry="5" fill="#2ecc71" opacity="0.8"/>
+    <text x="0" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Commitment Indicator</text>
+    
+    <rect x="-100" y="80" width="200" height="40" rx="5" ry="5" fill="#f39c12" opacity="0.8"/>
+    <text x="0" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Intimidation Factor</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <line x1="260" y1="150" x2="500" y2="130" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="260" y1="200" x2="500" y2="180" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="260" y1="250" x2="500" y2="230" stroke="#2ecc71" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="260" y1="300" x2="500" y2="280" stroke="#f39c12" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Key Insights -->
+  <rect x="100" y="350" width="600" height="40" fill="#e9ecef" rx="5" ry="5"/>
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Clear, confident bidding signals can intimidate less experienced bidders and establish auction dominance</text>
+</svg>

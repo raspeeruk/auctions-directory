@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Frequency of Legal Issues in Auction Properties</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Based on Auction Insights data 2023-2025</text>
+  
+  <!-- Chart Area -->
+  <rect x="100" y="100" width="600" height="220" fill="white" stroke="#dee2e6"/>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="100" x2="100" y2="320" stroke="#adb5bd" stroke-width="1"/>
+  <text x="95" y="100" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">40%</text>
+  <text x="95" y="144" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">32%</text>
+  <text x="95" y="188" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">24%</text>
+  <text x="95" y="232" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">16%</text>
+  <text x="95" y="276" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">8%</text>
+  <text x="95" y="320" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">0%</text>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="320" x2="700" y2="320" stroke="#adb5bd" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="144" x2="700" y2="144" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="188" x2="700" y2="188" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="232" x2="700" y2="232" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="100" y1="276" x2="700" y2="276" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Title Issues -->
+  <rect x="150" y="144" width="60" height="176" fill="#3498db" rx="3" ry="3"/>
+  <text x="180" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Title</text>
+  <text x="180" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Issues</text>
+  <text x="180" y="139" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">32%</text>
+  
+  <!-- Planning Issues -->
+  <rect x="250" y="188" width="60" height="132" fill="#3498db" rx="3" ry="3"/>
+  <text x="280" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Planning</text>
+  <text x="280" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Issues</text>
+  <text x="280" y="183" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">24%</text>
+  
+  <!-- Special Conditions -->
+  <rect x="350" y="166" width="60" height="154" fill="#e74c3c" rx="3" ry="3"/>
+  <text x="380" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Special</text>
+  <text x="380" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Conditions</text>
+  <text x="380" y="161" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">28%</text>
+  
+  <!-- Leasehold Issues -->
+  <rect x="450" y="210" width="60" height="110" fill="#3498db" rx="3" ry="3"/>
+  <text x="480" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Leasehold</text>
+  <text x="480" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Issues</text>
+  <text x="480" y="205" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">20%</text>
+  
+  <!-- Tenancy Issues -->
+  <rect x="550" y="232" width="60" height="88" fill="#3498db" rx="3" ry="3"/>
+  <text x="580" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Tenancy</text>
+  <text x="580" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Issues</text>
+  <text x="580" y="227" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">16%</text>
+  
+  <!-- Environmental Issues -->
+  <rect x="650" y="254" width="60" height="66" fill="#3498db" rx="3" ry="3"/>
+  <text x="680" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Environmental</text>
+  <text x="680" y="360" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Issues</text>
+  <text x="680" y="249" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">12%</text>
+  
+  <!-- Annotations -->
+  <rect x="350" y="120" width="60" height="46" fill="#e74c3c" opacity="0.2" rx="3" ry="3"/>
+  <path d="M410,143 L450,120 L550,120" stroke="#e74c3c" stroke-width="1" fill="none"/>
+  <text x="550" y="115" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Special conditions account for</text>
+  <text x="550" y="130" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">28% of legal issues and 35% of</text>
+  <text x="550" y="145" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">post-auction disputes</text>
+  
+  <!-- Key Insight -->
+  <rect x="100" y="380" width="600" height="20" fill="none"/>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Over 70% of legal issues could have been identified through proper review of the legal pack</text>
+</svg>

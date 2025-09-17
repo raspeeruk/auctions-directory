@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Commercial Conversion Project</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">The office-to-residential conversion project in Sheffield</text>
+  
+  <!-- Before and After Images -->
+  <!-- Before Building (Office) -->
+  <g transform="translate(200, 200)">
+    <!-- Background Label -->
+    <rect x="-150" y="100" width="300" height="30" rx="5" ry="5" fill="#3498db"/>
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">BEFORE: OFFICE BUILDING</text>
+    
+    <!-- Building Structure -->
+    <rect x="-100" y="-100" width="200" height="200" fill="#a9a9a9"/>
+    
+    <!-- Windows (Office Style) -->
+    <g>
+      <!-- First Floor -->
+      <rect x="-80" y="-80" width="30" height="30" fill="#87ceeb"/>
+      <rect x="-40" y="-80" width="30" height="30" fill="#87ceeb"/>
+      <rect x="10" y="-80" width="30" height="30" fill="#87ceeb"/>
+      <rect x="50" y="-80" width="30" height="30" fill="#87ceeb"/>
+      
+      <!-- Second Floor -->
+      <rect x="-80" y="-40" width="30" height="30" fill="#87ceeb"/>
+      <rect x="-40" y="-40" width="30" height="30" fill="#87ceeb"/>
+      <rect x="10" y="-40" width="30" height="30" fill="#87ceeb"/>
+      <rect x="50" y="-40" width="30" height="30" fill="#87ceeb"/>
+      
+      <!-- Third Floor -->
+      <rect x="-80" y="0" width="30" height="30" fill="#87ceeb"/>
+      <rect x="-40" y="0" width="30" height="30" fill="#87ceeb"/>
+      <rect x="10" y="0" width="30" height="30" fill="#87ceeb"/>
+      <rect x="50" y="0" width="30" height="30" fill="#87ceeb"/>
+    </g>
+    
+    <!-- Door (Commercial) -->
+    <rect x="-20" y="40" width="40" height="60" fill="#696969"/>
+    <rect x="-15" y="70" width="30" height="5" fill="#a9a9a9"/>
+    
+    <!-- Signage -->
+    <rect x="-60" y="-110" width="120" height="20" fill="#696969"/>
+    <text x="0" y="-95" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">OFFICE SPACE</text>
+    
+    <!-- "For Sale" Sign -->
+    <rect x="60" y="40" width="30" height="20" fill="#e74c3c"/>
+    <text x="75" y="55" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">FOR SALE</text>
+    
+    <!-- Vacancy Details -->
+    <text x="0" y="85" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">VACANT 2 YEARS</text>
+  </g>
+  
+  <!-- After Building (Apartments) -->
+  <g transform="translate(600, 200)">
+    <!-- Background Label -->
+    <rect x="-150" y="100" width="300" height="30" rx="5" ry="5" fill="#2ecc71"/>
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">AFTER: 6 LUXURY APARTMENTS</text>
+    
+    <!-- Building Structure -->
+    <rect x="-100" y="-100" width="200" height="200" fill="#f5f5dc"/>
+    
+    <!-- Windows (Residential Style) -->
+    <g>
+      <!-- First Floor - 2 Apartments -->
+      <rect x="-80" y="-80" width="25" height="40" fill="#87ceeb"/>
+      <line x1="-80" y1="-60" x2="-55" y2="-60" stroke="#fff" stroke-width="1"/>
+      <line x1="-67.5" y1="-80" x2="-67.5" y2="-40" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="-45" y="-80" width="25" height="40" fill="#87ceeb"/>
+      <line x1="-45" y1="-60" x2="-20" y2="-60" stroke="#fff" stroke-width="1"/>
+      <line x1="-32.5" y1="-80" x2="-32.5" y2="-40" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="20" y="-80" width="25" height="40" fill="#87ceeb"/>
+      <line x1="20" y1="-60" x2="45" y2="-60" stroke="#fff" stroke-width="1"/>
+      <line x1="32.5" y1="-80" x2="32.5" y2="-40" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="55" y="-80" width="25" height="40" fill="#87ceeb"/>
+      <line x1="55" y1="-60" x2="80" y2="-60" stroke="#fff" stroke-width="1"/>
+      <line x1="67.5" y1="-80" x2="67.5" y2="-40" stroke="#fff" stroke-width="1"/>
+      
+      <!-- Second Floor - 2 Apartments -->
+      <rect x="-80" y="-30" width="25" height="40" fill="#87ceeb"/>
+      <line x1="-80" y1="-10" x2="-55" y2="-10" stroke="#fff" stroke-width="1"/>
+      <line x1="-67.5" y1="-30" x2="-67.5" y2="10" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="-45" y="-30" width="25" height="40" fill="#87ceeb"/>
+      <line x1="-45" y1="-10" x2="-20" y2="-10" stroke="#fff" stroke-width="1"/>
+      <line x1="-32.5" y1="-30" x2="-32.5" y2="10" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="20" y="-30" width="25" height="40" fill="#87ceeb"/>
+      <line x1="20" y1="-10" x2="45" y2="-10" stroke="#fff" stroke-width="1"/>
+      <line x1="32.5" y1="-30" x2="32.5" y2="10" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="55" y="-30" width="25" height="40" fill="#87ceeb"/>
+      <line x1="55" y1="-10" x2="80" y2="-10" stroke="#fff" stroke-width="1"/>
+      <line x1="67.5" y1="-30" x2="67.5" y2="10" stroke="#fff" stroke-width="1"/>
+      
+      <!-- Third Floor - 2 Apartments -->
+      <rect x="-80" y="20" width="25" height="40" fill="#87ceeb"/>
+      <line x1="-80" y1="40" x2="-55" y2="40" stroke="#fff" stroke-width="1"/>
+      <line x1="-67.5" y1="20" x2="-67.5" y2="60" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="-45" y="20" width="25" height="40" fill="#87ceeb"/>
+      <line x1="-45" y1="40" x2="-20" y2="40" stroke="#fff" stroke-width="1"/>
+      <line x1="-32.5" y1="20" x2="-32.5" y2="60" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="20" y="20" width="25" height="40" fill="#87ceeb"/>
+      <line x1="20" y1="40" x2="45" y2="40" stroke="#fff" stroke-width="1"/>
+      <line x1="32.5" y1="20" x2="32.5" y2="60" stroke="#fff" stroke-width="1"/>
+      
+      <rect x="55" y="20" width="25" height="40" fill="#87ceeb"/>
+      <line x1="55" y1="40" x2="80" y2="40" stroke="#fff" stroke-width="1"/>
+      <line x1="67.5" y1="20" x2="67.5" y2="60" stroke="#fff" stroke-width="1"/>
+    </g>
+    
+    <!-- Door (Residential) -->
+    <rect x="-15" y="70" width="30" height="30" fill="#800000"/>
+    <rect x="-5" y="85" width="10" height="5" fill="#ffd700"/>
+    
+    <!-- Balconies -->
+    <rect x="-90" y="-35" width="40" height="5" fill="#696969"/>
+    <line x1="-90" y1="-35" x2="-90" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="-85" y1="-35" x2="-85" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="-80" y1="-35" x2="-80" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="-75" y1="-35" x2="-75" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="-70" y1="-35" x2="-70" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="-65" y1="-35" x2="-65" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="-60" y1="-35" x2="-60" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="-55" y1="-35" x2="-55" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="-50" y1="-35" x2="-50" y2="-25" stroke="#696969" stroke-width="1"/>
+    
+    <rect x="50" y="-35" width="40" height="5" fill="#696969"/>
+    <line x1="50" y1="-35" x2="50" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="55" y1="-35" x2="55" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="60" y1="-35" x2="60" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="65" y1="-35" x2="65" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="70" y1="-35" x2="70" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="75" y1="-35" x2="75" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="80" y1="-35" x2="80" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="85" y1="-35" x2="85" y2="-25" stroke="#696969" stroke-width="1"/>
+    <line x1="90" y1="-35" x2="90" y2="-25" stroke="#696969" stroke-width="1"/>
+    
+    <!-- Building Name -->
+    <rect x="-60" y="-110" width="120" height="20" fill="#2ecc71"/>
+    <text x="0" y="-95" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">SHEFFIELD HEIGHTS</text>
+  </g>
+  
+  <!-- Financial Summary -->
+  <rect x="50" y="150" width="300" height="180" rx="10" ry="10" fill="#f5f5f5" stroke="#dee2e6"/>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">Financial Summary</text>
+  
+  <text x="80" y="210" font-family="Arial, sans-serif" font-size="14" fill="#333">Purchase price:</text>
+  <text x="300" y="210" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="end">£385,000</text>
+  
+  <text x="80" y="235" font-family="Arial, sans-serif" font-size="14" fill="#333">Conversion cost:</text>
+  <text x="300" y="235" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="end">£305,000</text>
+  
+  <text x="80" y="260" font-family="Arial, sans-serif" font-size="14" fill="#333">Additional costs:</text>
+  <text x="300" y="260" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="end">£45,000</text>
+  
+  <line x1="80" y1="270" x2="300" y2="270" stroke="#dee2e6" stroke-width="2"/>
+  
+  <text x="80" y="290" font-family="Arial, sans-serif" font-size="14" fill="#333">Total investment:</text>
+  <text x="300" y="290" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="end">£735,000</text>
+  
+  <text x="80" y="315" font-family="Arial, sans-serif" font-size="14" fill="#333">Post-development value:</text>
+  <text x="300" y="315" font-family="Arial, sans-serif" font-size="14" fill="#3498db" font-weight="bold" text-anchor="end">£920,000</text>
+  
+  <!-- ROI Callout -->
+  <circle cx="400" cy="250" r="60" fill="#3498db"/>
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">ROI</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">35%</text>
+  
+  <!-- Rental Details -->
+  <rect x="500" y="150" width="250" height="180" rx="10" ry="10" fill="#f5f5f5" stroke="#dee2e6"/>
+  <text x="625" y="180" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">Rental Performance</text>
+  
+  <text x="520" y="210" font-family="Arial, sans-serif" font-size="14" fill="#333">Annual rental income:</text>
+  <text x="730" y="210" font-family="Arial, sans-serif" font-size="14" fill="#2ecc71" font-weight="bold" text-anchor="end">£72,000</text>
+  
+  <text x="520" y="235" font-family="Arial, sans-serif" font-size="14" fill="#333">Gross yield:</text>
+  <text x="730" y="235" font-family="Arial, sans-serif" font-size="14" fill="#2ecc71" font-weight="bold" text-anchor="end">9.8%</text>
+  
+  <text x="520" y="270" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Unit Breakdown:</text>
+  <text x="520" y="295" font-family="Arial, sans-serif" font-size="14" fill="#333">• 4 × One-bedroom apartments</text>
+  <text x="520" y="320" font-family="Arial, sans-serif" font-size="14" fill="#333">• 2 × Two-bedroom apartments</text>
+</svg>

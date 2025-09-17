@@ -1,0 +1,109 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- Chart Background -->
+  <rect x="100" y="50" width="600" height="350" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Chart Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b">Total Return Comparison by Region and Property Type (2023-2025)</text>
+  
+  <!-- Y-Axis -->
+  <line x1="100" y1="50" x2="100" y2="400" stroke="#94a3b8" stroke-width="2"/>
+  <text x="95" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">25%</text>
+  <text x="95" y="110" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">20%</text>
+  <text x="95" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">15%</text>
+  <text x="95" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">10%</text>
+  <text x="95" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">5%</text>
+  <text x="95" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">0%</text>
+  <text x="95" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">-5%</text>
+  <text x="95" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#64748b">-10%</text>
+  
+  <!-- X-Axis -->
+  <line x1="100" y1="310" x2="700" y2="310" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Grid Lines -->
+  <line x1="100" y1="60" x2="700" y2="60" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="110" x2="700" y2="110" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="160" x2="700" y2="160" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="210" x2="700" y2="210" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="260" x2="700" y2="260" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="360" x2="700" y2="360" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Zero Line -->
+  <line x1="100" y1="310" x2="700" y2="310" stroke="#94a3b8" stroke-width="1"/>
+  
+  <!-- Regions -->
+  <text x="175" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">London</text>
+  <text x="275" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">South East</text>
+  <text x="375" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Midlands</text>
+  <text x="475" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">North</text>
+  <text x="575" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Scotland</text>
+  <text x="675" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Mixed-Use</text>
+  
+  <!-- Bars - London -->
+  <!-- Residential -->
+  <rect x="150" y="210" width="20" height="100" fill="#f59e0b" opacity="0.8"/>
+  <text x="160" y="200" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">10.5%</text>
+  
+  <!-- Commercial -->
+  <rect x="175" y="260" width="20" height="50" fill="#2563eb" opacity="0.8"/>
+  <text x="185" y="250" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">5.2%</text>
+  
+  <!-- Bars - South East -->
+  <!-- Residential -->
+  <rect x="250" y="185" width="20" height="125" fill="#f59e0b" opacity="0.8"/>
+  <text x="260" y="175" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">12.8%</text>
+  
+  <!-- Commercial -->
+  <rect x="275" y="235" width="20" height="75" fill="#2563eb" opacity="0.8"/>
+  <text x="285" y="225" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">7.5%</text>
+  
+  <!-- Bars - Midlands -->
+  <!-- Residential -->
+  <rect x="350" y="160" width="20" height="150" fill="#f59e0b" opacity="0.8"/>
+  <text x="360" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">15.3%</text>
+  
+  <!-- Commercial -->
+  <rect x="375" y="210" width="20" height="100" fill="#2563eb" opacity="0.8"/>
+  <text x="385" y="200" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">10.1%</text>
+  
+  <!-- Bars - North -->
+  <!-- Residential -->
+  <rect x="450" y="135" width="20" height="175" fill="#f59e0b" opacity="0.8"/>
+  <text x="460" y="125" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">17.6%</text>
+  
+  <!-- Commercial -->
+  <rect x="475" y="185" width="20" height="125" fill="#2563eb" opacity="0.8"/>
+  <text x="485" y="175" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">12.7%</text>
+  
+  <!-- Bars - Scotland -->
+  <!-- Residential -->
+  <rect x="550" y="110" width="20" height="200" fill="#f59e0b" opacity="0.8"/>
+  <text x="560" y="100" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">20.2%</text>
+  
+  <!-- Commercial -->
+  <rect x="575" y="160" width="20" height="150" fill="#2563eb" opacity="0.8"/>
+  <text x="585" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">15.1%</text>
+  
+  <!-- Bars - Mixed-Use -->
+  <!-- Mixed-Use -->
+  <rect x="650" y="85" width="20" height="225" fill="#10b981" opacity="0.8"/>
+  <text x="660" y="75" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">22.8%</text>
+  
+  <!-- Commercial Retail -->
+  <rect x="675" y="360" width="20" height="50" fill="#2563eb" opacity="0.8"/>
+  <text x="685" y="370" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">-5.2%</text>
+  
+  <!-- Legend -->
+  <rect x="500" y="70" width="15" height="15" fill="#f59e0b" opacity="0.8"/>
+  <text x="525" y="83" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Residential</text>
+  
+  <rect x="500" y="95" width="15" height="15" fill="#2563eb" opacity="0.8"/>
+  <text x="525" y="108" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Commercial (General)</text>
+  
+  <rect x="500" y="120" width="15" height="15" fill="#10b981" opacity="0.8"/>
+  <text x="525" y="133" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Mixed-Use</text>
+  
+  <!-- Source -->
+  <text x="700" y="440" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#94a3b8">Source: Auction Insights Analysis, 2023-2025</text>
+</svg>

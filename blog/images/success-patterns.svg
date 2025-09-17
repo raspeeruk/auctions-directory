@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">Common Patterns in Successful Auction Investments</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Key factors that contribute to auction success</text>
+  
+  <!-- Success Pattern Wheel -->
+  <circle cx="400" cy="220" r="150" fill="#f5f5f5" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Center Circle -->
+  <circle cx="400" cy="220" r="50" fill="#e74c3c"/>
+  <text x="400" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Auction</text>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Success</text>
+  
+  <!-- Pattern 1: Research -->
+  <path d="M400,220 L400,70 A150,150 0 0,1 529.9,145 Z" fill="#3498db" opacity="0.8"/>
+  <text x="450" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Thorough</text>
+  <text x="450" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Research</text>
+  
+  <!-- Pattern 2: Financial Parameters -->
+  <path d="M400,220 L529.9,145 A150,150 0 0,1 529.9,295 Z" fill="#2ecc71" opacity="0.8"/>
+  <text x="500" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Clear</text>
+  <text x="500" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Financial</text>
+  <text x="500" y="260" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Parameters</text>
+  
+  <!-- Pattern 3: Value-Adding Strategies -->
+  <path d="M400,220 L529.9,295 A150,150 0 0,1 400,370 Z" fill="#f39c12" opacity="0.8"/>
+  <text x="450" y="320" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Value-Adding</text>
+  <text x="450" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Strategies</text>
+  
+  <!-- Pattern 4: Disciplined Bidding -->
+  <path d="M400,220 L400,370 A150,150 0 0,1 270.1,295 Z" fill="#9b59b6" opacity="0.8"/>
+  <text x="350" y="320" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Disciplined</text>
+  <text x="350" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Bidding</text>
+  
+  <!-- Pattern 5: Efficient Execution -->
+  <path d="M400,220 L270.1,295 A150,150 0 0,1 270.1,145 Z" fill="#1abc9c" opacity="0.8"/>
+  <text x="300" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Efficient</text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Execution</text>
+  
+  <!-- Pattern 6: Professional Network -->
+  <path d="M400,220 L270.1,145 A150,150 0 0,1 400,70 Z" fill="#e67e22" opacity="0.8"/>
+  <text x="350" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Professional</text>
+  <text x="350" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Network</text>
+  
+  <!-- Key Elements Boxes -->
+  <!-- Research Elements -->
+  <rect x="50" y="100" width="180" height="80" rx="5" ry="5" fill="white" stroke="#3498db" stroke-width="2"/>
+  <text x="140" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498db" text-anchor="middle">Research Elements</text>
+  <text x="140" y="150" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Multiple property inspections</text>
+  <text x="140" y="170" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Local market analysis</text>
+  
+  <!-- Financial Elements -->
+  <rect x="50" y="190" width="180" height="80" rx="5" ry="5" fill="white" stroke="#2ecc71" stroke-width="2"/>
+  <text x="140" y="215" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2ecc71" text-anchor="middle">Financial Elements</text>
+  <text x="140" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Maximum purchase prices</text>
+  <text x="140" y="260" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Conservative cost estimates</text>
+  
+  <!-- Value-Adding Elements -->
+  <rect x="570" y="100" width="180" height="80" rx="5" ry="5" fill="white" stroke="#f39c12" stroke-width="2"/>
+  <text x="660" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12" text-anchor="middle">Value-Adding Elements</text>
+  <text x="660" y="150" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Cosmetic improvements</text>
+  <text x="660" y="170" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Space optimization</text>
+  
+  <!-- Bidding Elements -->
+  <rect x="570" y="190" width="180" height="80" rx="5" ry="5" fill="white" stroke="#9b59b6" stroke-width="2"/>
+  <text x="660" y="215" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9b59b6" text-anchor="middle">Bidding Elements</text>
+  <text x="660" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Strategic approach</text>
+  <text x="660" y="260" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Willingness to walk away</text>
+  
+  <!-- Execution Elements -->
+  <rect x="50" y="280" width="180" height="80" rx="5" ry="5" fill="white" stroke="#1abc9c" stroke-width="2"/>
+  <text x="140" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1abc9c" text-anchor="middle">Execution Elements</text>
+  <text x="140" y="330" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Rapid renovation start</text>
+  <text x="140" y="350" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Effective project management</text>
+  
+  <!-- Network Elements -->
+  <rect x="570" y="280" width="180" height="80" rx="5" ry="5" fill="white" stroke="#e67e22" stroke-width="2"/>
+  <text x="660" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e67e22" text-anchor="middle">Network Elements</text>
+  <text x="660" y="330" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Solicitors & surveyors</text>
+  <text x="660" y="350" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">• Contractors & agents</text>
+  
+  <!-- Connection Lines -->
+  <line x1="230" y1="140" x2="270" y2="145" stroke="#3498db" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="230" y1="230" x2="300" y2="240" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="230" y1="320" x2="270" y2="295" stroke="#1abc9c" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="570" y1="140" x2="530" y2="145" stroke="#f39c12" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="570" y1="230" x2="500" y2="240" stroke="#9b59b6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="570" y1="320" x2="530" y2="295" stroke="#e67e22" stroke-width="1" stroke-dasharray="3,3"/>
+</svg>
