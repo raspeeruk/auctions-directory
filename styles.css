@@ -341,21 +341,60 @@ nav {
     padding: 5rem 0;
 }
 
-.pricing-card {
-    max-width: 500px;
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 3rem;
+}
+
+.pricing-card {
+    padding: 2.5rem;
     background-color: var(--bg-color);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-lg);
     text-align: center;
+    border: 2px solid var(--border-color);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-card.featured {
     border: 2px solid var(--primary-color);
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.pricing-card.featured:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.pricing-card-header {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.featured-tag {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .pricing-card h3 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 1.5rem;
 }
 
 .price {
@@ -380,9 +419,16 @@ nav {
     color: var(--text-light);
 }
 
+.custom-price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
 .pricing-features {
     margin-bottom: 2rem;
     text-align: left;
+    min-height: 280px;
 }
 
 .pricing-features li {
@@ -401,6 +447,38 @@ nav {
     margin-top: 1.5rem;
     font-size: 0.9rem;
     color: var(--text-light);
+}
+
+/* Responsive pricing grid */
+@media (max-width: 1024px) {
+    .pricing-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .pricing-card {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        gap: 3rem;
+    }
+    
+    .pricing-card.featured {
+        transform: none;
+    }
+    
+    .pricing-card.featured:hover {
+        transform: translateY(-10px);
+    }
+    
+    .pricing-features {
+        min-height: auto;
+    }
 }
 
 /* Testimonials Section */
