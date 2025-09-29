@@ -4,7 +4,7 @@ const path = require('path');
 
 // Configuration
 const config = {
-    baseUrl: 'https://auctionradar.com/',
+    baseUrl: 'https://auctionradar.co.uk/',
     sitemapPath: './sitemap.xml',
     mainPages: [
         { url: '', changefreq: 'weekly', priority: '1.0' },
