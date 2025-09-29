@@ -1,5 +1,98 @@
 // Auction Radar Landing Page JavaScript
 
+// Sitemap management functions
+const sitemapManager = {
+    // Base URL for the website
+    baseUrl: 'https://auctionradar.com/',
+    
+    // Function to generate sitemap XML content
+    generateSitemapXml: function() {
+        const today = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
+        
+        // Start XML content
+        let xmlContent = '<?xml version="1.0" encoding="UTF-8"?>\n';
+        xmlContent += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+        
+        // Add main pages
+        xmlContent += this.createUrlEntry(this.baseUrl + 'index.html', today, 'weekly', '1.0');
+        xmlContent += this.createUrlEntry(this.baseUrl + 'blog.html', today, 'weekly', '0.8');
+        
+        // Get all blog posts
+        const blogPosts = this.findAllBlogPosts();
+        
+        // Add blog posts to sitemap
+        blogPosts.forEach(post => {
+            xmlContent += this.createUrlEntry(
+                this.baseUrl + post,
+                today,
+                'monthly',
+                '0.7'
+            );
+        });
+        
+        // Close XML
+        xmlContent += '</urlset>';
+        
+        return xmlContent;
+    },
+    
+    // Helper function to create a URL entry
+    createUrlEntry: function(loc, lastmod, changefreq, priority) {
+        return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+    },
+    
+    // Function to find all HTML files in the blog directory
+    findAllBlogPosts: function() {
+        const blogPosts = [];
+        
+        // This would typically use server-side code or an API
+        // For client-side only, we'll use a fetch to a directory listing or API endpoint
+        
+        // For now, we'll manually scan for blog posts by checking known patterns
+        // In a real implementation, this would be replaced with server-side code
+        
+        // Get all anchor tags that link to blog posts
+        const blogLinks = document.querySelectorAll('a[href^="blog/"]');
+        
+        // Extract unique blog post URLs
+        blogLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            if (href.endsWith('.html') && !blogPosts.includes(href)) {
+                blogPosts.push(href);
+            }
+        });
+        
+        return blogPosts;
+    },
+    
+    // Function to update the sitemap.xml file
+    updateSitemap: function() {
+        const xmlContent = this.generateSitemapXml();
+        
+        // In a real implementation, this would use a server-side API endpoint
+        // to write the XML content to the sitemap.xml file
+        
+        // For demonstration, we'll log the content and use a fetch to a hypothetical API
+        console.log('Updating sitemap.xml with:', xmlContent);
+        
+        // Example of how this might work with a server-side endpoint
+        fetch('/api/update-sitemap', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ content: xmlContent })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Sitemap updated successfully:', data);
+        })
+        .catch(error => {
+            console.error('Error updating sitemap:', error);
+        });
+    }
+};
+
 document.addEventListener('DOMContentLoaded', function() {
     // Smooth scrolling for navigation links
     const navLinks = document.querySelectorAll('nav a[href^="#"]');
@@ -92,6 +185,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize CTA tracking
     trackCTAClicks();
+    
+    // Update sitemap when the page loads
+    // This would typically be done on the server side or when new content is published
+    // For demonstration purposes, we're doing it on page load
+    sitemapManager.updateSitemap();
 });
 
 // Add some CSS animations via JavaScript

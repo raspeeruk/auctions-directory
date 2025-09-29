@@ -1,0 +1,17 @@
+{
+  "name": "auction-radar-website",
+  "version": "1.0.0",
+  "description": "Auction Radar - Property Auction Information Website",
+  "main": "index.js",
+  "scripts": {
+    "update-sitemap": "node update-sitemap.js",
+    "build": "npm run update-sitemap"
+  },
+  "keywords": [
+    "property",
+    "auction",
+    "real-estate"
+  ],
+  "author": "Auction Radar Team",
+  "license": "MIT"
+}
