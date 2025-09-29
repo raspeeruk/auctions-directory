@@ -7,8 +7,8 @@ const config = {
     baseUrl: 'https://auctionradar.com/',
     sitemapPath: './sitemap.xml',
     mainPages: [
-        { url: 'index.html', changefreq: 'weekly', priority: '1.0' },
-        { url: 'blog.html', changefreq: 'weekly', priority: '0.8' }
+        { url: '', changefreq: 'weekly', priority: '1.0' },
+        { url: 'blog', changefreq: 'weekly', priority: '0.8' }
     ],
     blogDir: './blog',
     blogChangefreq: 'monthly',
@@ -65,10 +65,12 @@ function findAllBlogPosts() {
         // Read all files in the blog directory
         const files = fs.readdirSync(config.blogDir);
         
-        // Filter for HTML files
+        // Filter for HTML files and remove .html extension for URLs
         files.forEach(file => {
             if (file.endsWith('.html')) {
-                blogPosts.push(`blog/${file}`);
+                // Remove .html extension for the URL
+                const urlPath = `blog/${file.replace('.html', '')}`;
+                blogPosts.push(urlPath);
             }
         });
     } catch (error) {
