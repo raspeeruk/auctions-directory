@@ -227,3 +227,80 @@ document.addEventListener('DOMContentLoaded', function() {
         el.style.setProperty('--animation-order', index);
     });
 });
+
+// Email collection and download functionality
+document.addEventListener('DOMContentLoaded', function() {
+    // Get modal elements
+    const modal = document.getElementById('email-modal');
+    const downloadBtn = document.querySelector('a[href="#demo"]');
+    const closeBtn = document.querySelector('.close-modal');
+    const emailForm = document.getElementById('email-form');
+    
+    // Show modal when download button is clicked
+    downloadBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+    });
+    
+    // Close modal when X is clicked
+    closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Re-enable scrolling
+    });
+    
+    // Close modal when clicking outside of it
+    window.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+    });
+    
+    // Handle form submission
+    emailForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Get email value
+        const email = document.getElementById('email').value;
+        
+        // In a real implementation, you would save the email to a database
+        console.log('Email submitted:', email);
+        
+        // Create a success message
+        const successMessage = document.createElement('div');
+        successMessage.className = 'success-message';
+        successMessage.style.display = 'block';
+        successMessage.textContent = 'Thank you! Your download will begin shortly.';
+        
+        // Add success message to form
+        emailForm.appendChild(successMessage);
+        
+        // Disable form inputs
+        document.getElementById('email').disabled = true;
+        document.querySelector('#email-form button').disabled = true;
+        
+        // Simulate a delay before download starts
+        setTimeout(function() {
+            // Trigger download
+            const downloadLink = document.createElement('a');
+            downloadLink.href = 'images/Auction Radar - Sample Excel Spreadsheet.xlsx';
+            downloadLink.download = 'Auction Radar - Sample Excel Spreadsheet.xlsx';
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+            
+            // Close modal after a short delay
+            setTimeout(function() {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto'; // Re-enable scrolling
+                
+                // Reset form for future use
+                emailForm.reset();
+                document.getElementById('email').disabled = false;
+                document.querySelector('#email-form button').disabled = false;
+                successMessage.remove();
+            }, 2000);
+        }, 1500);
+    });
+});
