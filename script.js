@@ -281,6 +281,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const formData = new FormData();
         formData.append('email', email);
         
+        // Add a parameter to indicate if we want the server to send the file directly
+        formData.append('send_file', 'false');
+        
         fetch('save-email.php', {
             method: 'POST',
             body: formData
@@ -291,12 +294,34 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Trigger download after email is saved
             setTimeout(function() {
-                const downloadLink = document.createElement('a');
-                downloadLink.href = 'images/Auction Radar - Sample Excel Spreadsheet.xlsx';
-                downloadLink.download = 'Auction Radar - Sample Excel Spreadsheet.xlsx';
-                document.body.appendChild(downloadLink);
-                downloadLink.click();
-                document.body.removeChild(downloadLink);
+                // Create a form for the download request
+                const downloadForm = document.createElement('form');
+                downloadForm.method = 'POST';
+                downloadForm.action = 'save-email.php';
+                downloadForm.style.display = 'none';
+                
+                // Add the email to the form
+                const emailInput = document.createElement('input');
+                emailInput.type = 'hidden';
+                emailInput.name = 'email';
+                emailInput.value = email;
+                downloadForm.appendChild(emailInput);
+                
+                // Add the send_file parameter
+                const sendFileInput = document.createElement('input');
+                sendFileInput.type = 'hidden';
+                sendFileInput.name = 'send_file';
+                sendFileInput.value = 'true';
+                downloadForm.appendChild(sendFileInput);
+                
+                // Add the form to the document and submit it
+                document.body.appendChild(downloadForm);
+                downloadForm.submit();
+                
+                // Remove the form after submission
+                setTimeout(() => {
+                    document.body.removeChild(downloadForm);
+                }, 100);
                 
                 // Close modal after a short delay
                 setTimeout(function() {
@@ -317,12 +342,34 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Still trigger download even if email saving fails
             setTimeout(function() {
-                const downloadLink = document.createElement('a');
-                downloadLink.href = 'images/Auction Radar - Sample Excel Spreadsheet.xlsx';
-                downloadLink.download = 'Auction Radar - Sample Excel Spreadsheet.xlsx';
-                document.body.appendChild(downloadLink);
-                downloadLink.click();
-                document.body.removeChild(downloadLink);
+                // Create a form for the download request
+                const downloadForm = document.createElement('form');
+                downloadForm.method = 'POST';
+                downloadForm.action = 'save-email.php';
+                downloadForm.style.display = 'none';
+                
+                // Add the email to the form
+                const emailInput = document.createElement('input');
+                emailInput.type = 'hidden';
+                emailInput.name = 'email';
+                emailInput.value = email;
+                downloadForm.appendChild(emailInput);
+                
+                // Add the send_file parameter
+                const sendFileInput = document.createElement('input');
+                sendFileInput.type = 'hidden';
+                sendFileInput.name = 'send_file';
+                sendFileInput.value = 'true';
+                downloadForm.appendChild(sendFileInput);
+                
+                // Add the form to the document and submit it
+                document.body.appendChild(downloadForm);
+                downloadForm.submit();
+                
+                // Remove the form after submission
+                setTimeout(() => {
+                    document.body.removeChild(downloadForm);
+                }, 100);
                 
                 // Close modal after a short delay
                 setTimeout(function() {
