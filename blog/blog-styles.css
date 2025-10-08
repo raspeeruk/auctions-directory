@@ -28,6 +28,10 @@
     opacity: 0.9;
 }
 
+.white-text {
+    color: white;
+}
+
 /* Blog Content Layout */
 .blog-content {
     padding: 4rem 0;
