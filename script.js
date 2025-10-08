@@ -386,3 +386,50 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Function to filter blog posts by category
+function filterByCategory(category) {
+    console.log('Filtering by category:', category);
+    
+    // Get all blog cards
+    const blogCards = document.querySelectorAll('.blog-card');
+    
+    // If no blog cards are found, exit the function
+    if (blogCards.length === 0) {
+        console.log('No blog cards found');
+        return;
+    }
+    
+    // Loop through each blog card
+    blogCards.forEach(card => {
+        // Get the category text from the card
+        const cardCategory = card.querySelector('.blog-category');
+        
+        if (!cardCategory) {
+            console.log('No category found in card:', card);
+            return;
+        }
+        
+        const cardCategoryText = cardCategory.textContent.toLowerCase().trim();
+        const categoryText = category.replace(/-/g, ' ');
+        
+        // Check if the card's category matches the selected category
+        if (cardCategoryText === categoryText) {
+            // Show the card
+            card.style.display = 'block';
+        } else {
+            // Hide the card
+            card.style.display = 'none';
+        }
+    });
+    
+    // Update the active category in the sidebar
+    const categoryLinks = document.querySelectorAll('.category-list a');
+    categoryLinks.forEach(link => {
+        if (link.getAttribute('onclick').includes(category)) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
+    });
+}
